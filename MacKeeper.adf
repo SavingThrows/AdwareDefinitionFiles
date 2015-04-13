@@ -1,0 +1,15 @@
+<AdwareDefinition>
+	<Version>1.0</Version>
+	<DefinitionAuthor>Shea Craig</DefinitionAuthor>
+	<DefinitionSource>Durham Academy</DefinitionSource>
+	<Adware>
+		<AdwareName>MacKeeper</AdwareName>
+		<File>/Users/*/Library/LaunchAgents/com.*.MacKeeper.Helper.plist</File>
+		<File>/Users/*/Documents/MacKeeper Backups</File>
+		<File>/Applications/MacKeeper.app</File>
+		<File>/Users/*/Library/Application Support/MacKeeper Helper</File>
+		<File>/Users/*/Library/Caches/com.mackeeper.MacKeeper</File>
+		<Process>MacKeeper</Process>
+	</Adware>
+</AdwareDefinition>
+
