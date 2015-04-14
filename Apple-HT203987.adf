@@ -38,6 +38,7 @@
 	</Adware>
 	<Adware>
 		<AdwareName>Conduit, Trovi, MyBrand, and Search Protect Varients</AdwareName>
+		<!-- TODO: No known source at the moment. -->
 		<File>/Library/InputManagers/CTLoader/</File>
 		<File>/Library/Application Support/Conduit/</File>
 		<File>/Users/*/Library/Internet Plug-Ins/ConduitNPAPIPlugin.plugin</File>
@@ -49,6 +50,7 @@
 	</Adware>
 	<Adware>
 		<AdwareName>Genieo and InstallMac</AdwareName>
+		<!-- TODO: No known source at the moment. -->
 		<File>/private/etc/launchd.conf</File>
 		<File>/Applications/Genieo</File>
 		<File>/Applications/InstallMac</File>
