@@ -7,8 +7,8 @@
 	of software which are not included in this list.
 	-->
 	<Adware>
-		<AdwareName>Downlite and VSearch Varients</AdwareName>
-		<!-- This is one place where I have found this; the "projectX" varient" -->
+		<AdwareName>Downlite and VSearch Variants</AdwareName>
+		<!-- This is one place where I have found this; the "projectX" variant" -->
 		<AdwareSource>http://www.deal-top.com</AdwareSource>
 		<File>/System/Library/Frameworks/v.framework</File>
 		<File>/System/Library/Frameworks/VSearch.framework</File>
@@ -37,7 +37,7 @@
 		<File>/Library/Application Support/%AGENT%</File>
 	</Adware>
 	<Adware>
-		<AdwareName>Conduit, Trovi, MyBrand, and Search Protect Varients</AdwareName>
+		<AdwareName>Conduit, Trovi, MyBrand, and Search Protect Variants</AdwareName>
 		<!-- TODO: No known source at the moment. -->
 		<File>/Library/InputManagers/CTLoader/</File>
 		<File>/Library/Application Support/Conduit/</File>
