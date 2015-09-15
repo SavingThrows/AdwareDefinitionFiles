@@ -1,0 +1,9 @@
+<AdwareDefinition>
+	<Version>90</Version>
+	<DefinitionAuthor>Owen Pragel</DefinitionAuthor>
+	<DefinitionSource>http://www.adwaremedic.com/signatures.xml</DefinitionSource>
+	<Adware>
+		<AdwareName>CustomSearch</AdwareName>
+		<File>/Users/*/Applications/SilentInstaller.app</File>
+	</Adware>
+</AdwareDefinition>

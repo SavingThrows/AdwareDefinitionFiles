@@ -1,0 +1,25 @@
+<AdwareDefinition>
+	<Version>90</Version>
+	<DefinitionAuthor>Owen Pragel</DefinitionAuthor>
+	<DefinitionSource>http://www.adwaremedic.com/signatures.xml</DefinitionSource>
+	<Comment>This definition is based on the AdwareMedic list of files, not the Apple kbase article. It includes some different things.</Comment>
+	<Comment>This is a work in progress, and as such, many lines are as of yet unconverted to ADF format.</Comment>
+	<Adware>
+		<AdwareName>VSearch</AdwareName>
+		<File>/Library/Application Support/VSearch</File>
+		<File>/Library/LaunchAgents/com.vsearch.agent.plist</File>
+		<File>/Library/LaunchDaemons/com.vsearch.daemon.plist</File>
+		<File>/Library/LaunchDaemons/com.vsearch.helper.plist</File>
+		<File>/Library/LaunchDaemons/Jack.plist</File>
+		<File>/Library/PrivilegedHelperTools/Jack</File>
+		<File>/System/Library/Frameworks/VSearch.framework</File>
+		<!-- <item type="contentAtPath" filename="" havingContent="Frameworks/v\.framework" subfile="Version.plist">/Library/Application Support/</item> -->
+		<!-- <item type="contentAtPath" filename="" havingContent="&lt;string&gt;[0-9a-f]+\.com&lt;/string&gt;" subfile="f">/Library/Application Support/</item> -->
+		<!-- <item type="contentAtPath" filename="^[0-9a-f]{16}$">/Library/Application Support/</item> -->
+		<!-- <item type="contentAtPath" unload="true" restart="true" filename="com\.[^\.]+\.agent\.plist" havingContent="(com\.v\.agent)|(/Application Support/[0-9a-f]+/Agent/[^\.]+\.app)">/Library/LaunchAgents/</item> -->
+		<!-- <item type="contentAtPath" unload="true" restart="true" filename="com\.[^\.]+\.(daemon|helper)\.plist" havingContent="(com\.v\.(daemon|helper))|(/Application Support/[0-9a-f]+/Agent/[^\.]+\.app)">/Library/LaunchDaemons/</item> -->
+		<!-- <item type="contentAtPath" unload="true" restart="true" filename="com\.[^\.]+\.agent\.plist" havingContent="/Agent/agent\.app/Contents/MacOS/agent">/Library/LaunchAgents/</item> -->
+		<!-- <item type="contentAtPath" unload="true" restart="true" filename="com\.[^\.]+\.(daemon|helper)\.plist" havingContent="/Agent/agent\.app/Contents/MacOS/agent">/Library/LaunchDaemons/</item> -->
+		<File>/System/Library/Frameworks/v.framework</File>
+	</Adware>
+</AdwareDefinition>

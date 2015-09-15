@@ -1,0 +1,62 @@
+<AdwareDefinition>
+	<Version>90</Version>
+	<DefinitionAuthor>Owen Pragel</DefinitionAuthor>
+	<DefinitionSource>http://www.adwaremedic.com/signatures.xml</DefinitionSource>
+	<Comment>This definition is based on the AdwareMedic list of files, not the Apple kbase article. It includes some different things.</Comment>
+	<Comment>This is a work in progress, and as such, many lines are as of yet unconverted to ADF format.</Comment>
+	<Adware>
+		<AdwareName>Genieo</AdwareName>
+		<!-- <item type="login">Genieo</item> -->
+		<!-- <item type="login">InKeepr</item> -->
+		<File>/Users/*/Library/LaunchAgents/com.genieo.completer.download.plist</File>
+		<File>/Users/*/Library/LaunchAgents/com.genieo.completer.update.plist</File>
+		<File>/Users/*/Library/LaunchAgents/com.genieo.completer.ltvbit.plist</File>
+		<File>/Users/*/Library/LaunchAgents/com.installer.completer.download.plist</File>
+		<File>/Users/*/Library/LaunchAgents/com.installer.completer.update.plist</File>
+		<File>/Users/*/Library/LaunchAgents/com.installer.completer.ltvbit.plist</File>
+		<!-- <item type="contentAtPath" relativeTo="home" unload="true" restart="true" filename="\.((download)|(update)|(ltvbit))\.plist" havingContent="\-firstAppId">Library/LaunchAgents/</item> -->
+		<File>/Users/*/Library/LaunchAgents/texiday.download.plist</File>
+		<File>/Users/*/Library/LaunchAgents/texiday.update.plist</File>
+		<File>/Users/*/Library/LaunchAgents/texiday.ltvbit.plist</File>
+		<File>/Library/LaunchAgents/com.genieoinnovation.macextension.plist</File>
+		<File>/Library/LaunchAgents/com.genieoinnovation.macextension.client.plist</File>
+		<File>/Library/LaunchAgents/com.genieo.engine.plist</File>
+		<File>/Library/LaunchAgents/com.genieo.completer.update.plist</File>
+		<File>/Library/LaunchDaemons/com.genieoinnovation.macextension.client.plist</File>
+		<File>/Applications/Genieo.app</File>
+		<File>/Applications/InKeepr.app</File>
+		<File>/Applications/InstallGenieo.app</File>
+		<File>/Applications/Reset Search.app</File>
+		<File>/Applications/Uninstall Genieo.app</File>
+		<File>/Applications/Uninstall IM Completer.app</File>
+		<File>/Applications/InstallMac</File>
+		<File>/Applications/InstallGenieo</File>
+		<File>/Applications/Texiday</File>
+		<File>/Applications/Listchack</File>
+		<File>/Applications/InKeepr</File>
+		<File>/Applications/Celipsow</File>
+		<File>/Applications/Nariabox</File>
+		<File>/Applications/Oliverto</File>
+		<File>/Applications/Epolife</File>
+		<File>/Applications/Leperdvil</File>
+		<File>/Users/*/Library/Application Support/com.genieoinnovation.Installer</File>
+		<File>/Users/*/Library/Application Support/Genieo</File>
+		<File>/Users/*/Library/Application Support/IM.Installer</File>
+		<File>/Users/*/Library/Application Support/Listchack</File>
+		<File>/Users/*/Library/Application Support/InKeepr</File>
+		<File>/Users/*/Library/Application Support/Asistents</File>
+		<File>/Users/*/Library/Application Support/Celipsow</File>
+		<File>/Users/*/Library/Application Support/Nariabox</File>
+		<File>/Users/*/Library/Application Support/Oliverto</File>
+		<File>/Users/*/Library/Application Support/Epolife</File>
+		<File>/Users/*/Library/Application Support/Leperdvil</File>
+		<File>/Library/PrivilegedHelperTools/com.genieoinnovation.macextension.client</File>
+		<File>/Library/Frameworks/GenieoExtra.framework</File>
+		<File>/Users/*/Library/Application Support/Firefox/Profiles/*/searchplugins/my-homepage.xml</File>
+		<File>/private/etc/launchd.conf</File>
+		<File>/usr/lib/libgenkit.dylib</File>
+		<File>/usr/lib/libgenkitsa.dylib</File>
+		<File>/usr/lib/libimckit.dylib</File>
+		<File>/usr/lib/libimckitsa.dylib</File>
+	</Adware>
+</AdwareDefinition>

@@ -1,0 +1,40 @@
+<AdwareDefinition>
+	<Version>90</Version>
+	<DefinitionAuthor>Owen Pragel</DefinitionAuthor>
+	<DefinitionSource>http://www.adwaremedic.com/signatures.xml</DefinitionSource>
+	<Comment>This is a work in progress, and as such, many lines are as of yet unconverted to ADF format.</Comment>
+	<Adware>
+		<AdwareName>Bundlore</AdwareName>
+		<File>/Users/*/Library/Application Support/Google/Chrome/External Extensions/phpdijfdkggndfmgcfdhcimlflflnega.json</File>
+		<File>/Users/*/Library/LaunchAgents/Safari Security</File>
+		<!-- <item type="contentAtPath" filename="(cinema(s?)[- \+]*(plus|\+)?[- \+]*(pro|hd)?)|(cinema(s?) ?pl[aeiou]+s)" havingContent="com\.(cinema(s?)[- \+]*(plus|\+)?[- \+]*(pro|hd)?)|(cinema(s?) ?pl[aeiou]+s)\.Service">/Library/</item> -->
+		<!-- <item type="contentAtPath" relativeTo="home" restart="true" filename="flashmall" havingContent="">/Library/LaunchAgents/</item> -->
+		<!-- <item type="contentAtPath" relativeTo="home" restart="true" filename="shopp?y.?mate" havingContent="">/Library/LaunchAgents/</item> -->
+		<!-- <item type="contentAtPath" relativeTo="home" restart="true" filename="palmall" havingContent="">/Library/LaunchAgents/</item> -->
+		<!-- <item type="contentAtPath" relativeTo="home" restart="true" filename="(cinema(s?)[- \+]*(plus|\+)?[- \+]*(pro|hd)?)|(cinema(s?) ?pl[aeiou]+s)" havingContent="">/Library/LaunchAgents/</item> -->
+		<!-- <item type="contentAtPath" restart="true" filename="(cinema(s?)[- \+]*(plus|\+)?[- \+]*(pro|hd)?)|(cinema(s?) ?pl[aeiou]+s)" havingContent="">/Library/LaunchAgents/</item> -->
+		<!-- <item type="contentAtPath" restart="true" filename="(cinema(s?)[- \+]*(plus|\+)?[- \+]*(pro|hd)?)|(cinema(s?) ?pl[aeiou]+s)" havingContent="">/Library/LaunchDaemons/</item> -->
+		<!-- <item type="contentAtPath" filename="com\.crossrider\.wss\d+\.agent\.plist" relativeTo="home" unload="true" restart="true">Library/LaunchAgents/</item> -->
+		<File>/Users/*/Library/LaunchAgents/WebSocketServerApp</File>
+		<File>/Users/*/Library/LaunchAgents/com.webhelper.plist</File>
+		<File>/Users/*/Library/LaunchAgents/com.webtools.update.agent.plist</File>
+		<File>/Users/*/Library/LaunchAgents/com.webtools.uninstaller.plist</File>
+		<!-- <item type="contentAtPath" filename="com\.webhelper\..*\.plist" havingContent="/Library/Application Support/webhelper">/Library/LaunchAgents</item> -->
+		<!-- <item type="contentAtPath" relativeTo="home" filename="com\.webtools\..*\.plist" havingContent="Library/Application Support/WebTools">Library/LaunchAgents</item> -->
+		<File>/Users/*/Library/Application Support/webHelperApp/</File>
+		<File>/Users/*/Library/Application Support/webhelper/</File>
+		<File>/Users/*/Library/Application Support/WebTools/</File>
+		<File>/Users/*/Library/WebTools/</File>
+		<File>/Users/*/Library/flashmall/</File>
+		<File>/Applications/WebTools.app</File>
+		<File>/Users/*/Applications/flashmall.app</File>
+		<!-- <item type="contentAtPath" filename="cinema(s?)[- \+]*((plus)|(pro))[- \+0123456789]*">/Applications</item> -->
+		<!-- <item type="contentAtPath" relativeTo="home" filename="cinema(s?)[- \+]*((plus)|(pro))[- \+0123456789]*">Applications</item> -->
+		<File>/Users/*/Library/Application Support/Firefox/Profiles/*/user.js</File>
+		<File>/Users/*/Library/cinemapro1-2</File>
+		<File>/Users/*/Library/LaunchAgents/UpdateDownloader</File>
+		<!-- <item type="contentAtPath" relativeTo="home" restart="true" filename="\.agent\.plist" havingContent="UpdateDownloader">Library/LaunchAgents/</item> -->
+		<!-- <item type="contentAtPath" relativeTo="home" filename="com\.extensions\.updater[0123456789]*\.ver">Library/LaunchAgents/</item> -->
+		<File>/Users/*/Library/ScriptingAdditions/BrowserHelper.osax</File>
+	</Adware>
+<AdwareDefinition>
