@@ -1,0 +1,11 @@
+<AdwareDefinition>
+	<Version>90</Version>
+	<DefinitionAuthor>Owen Pragel</DefinitionAuthor>
+	<DefinitionSource>http://www.adwaremedic.com/signatures.xml</DefinitionSource>
+	<Adware>
+		<AdwareName>PremierOpinion</AdwareName>
+		<File>/Applications/PremierOpinion</File>
+		<File>/Library/LaunchDaemons/PremierOpinion.plist</File>
+		<File>/i</File>
+	</Adware>
+</AdwareDefinition>

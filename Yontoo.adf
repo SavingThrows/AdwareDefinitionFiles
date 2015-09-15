@@ -1,0 +1,10 @@
+<AdwareDefinition>
+	<Version>90</Version>
+	<DefinitionAuthor>Owen Pragel</DefinitionAuthor>
+	<DefinitionSource>http://www.adwaremedic.com/signatures.xml</DefinitionSource>
+	<Adware>
+		<AdwareName>Yontoo</AdwareName>
+		<File>/Users/*/Library/Application Support/Google/Chrome/YontooLayers.crx</File>
+		<File>/Users/*/Library/Application Support/Firefox/Profiles/*/user.js</File>
+	</Adware>
+</AdwareDefinition>

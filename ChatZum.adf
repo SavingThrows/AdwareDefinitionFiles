@@ -1,0 +1,12 @@
+<AdwareDefinition>
+	<Version>90</Version>
+	<DefinitionAuthor>Owen Pragel</DefinitionAuthor>
+	<DefinitionSource>http://www.adwaremedic.com/signatures.xml</DefinitionSource>
+	<Adware>
+		<AdwareName>ChatZum</AdwareName>
+		<File>/Applications/ChatZumUninstaller.pkg</File>
+		<File>/Library/Application Support/SIMBL/Plugins/SafariOmnibar.bundle</File>
+		<File>/Library/Internet Plug-Ins/uid.plist</File>
+		<File>/Library/Internet Plug-Ins/zako.plugin</File>
+	</Adware>
+</AdwareDefinition>

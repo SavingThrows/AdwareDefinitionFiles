@@ -1,0 +1,11 @@
+<AdwareDefinition>
+	<Version>90</Version>
+	<DefinitionAuthor>Owen Pragel</DefinitionAuthor>
+	<DefinitionSource>http://www.adwaremedic.com/signatures.xml</DefinitionSource>
+	<Adware>
+		<AdwareName>GoPhoto</AdwareName>
+		<File>/Users/*/Library/Application Support/Google/Chrome/External Extensions/ccfjbdjailljfihgkoccfbiljjapiijb.json</File>
+		<File>/Users/*/Library/Application Support/Firefox/Profiles/*/user.js</File>
+		<File>/Users/*/Library/Application Support/Firefox/Profiles/*/prefs.js</File>
+	</Adware>
+</AdwareDefinition>

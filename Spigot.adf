@@ -1,0 +1,11 @@
+<AdwareDefinition>
+	<Version>90</Version>
+	<DefinitionAuthor>Owen Pragel</DefinitionAuthor>
+	<DefinitionSource>http://www.adwaremedic.com/signatures.xml</DefinitionSource>
+	<Adware>
+		<AdwareName>Spigot</AdwareName>
+		<File>/Users/*/Library/LaunchAgents/com.spigot.SearchProtection.plist</File>
+		<File>/Users/*/Library/LaunchAgents/com.spigot.ApplicationManager.plist</File>
+		<File>/Users/*/Library/Application Support/Spigot/</File>
+	</Adware>
+</AdwareDefinition>
