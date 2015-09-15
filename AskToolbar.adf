@@ -1,0 +1,10 @@
+<AdwareDefinition>
+	<Version>1.0</Version>
+	<DefinitionAuthor>Elliot Jordan</DefinitionAuthor>
+	<DefinitionSource>Linde Group</DefinitionSource>
+	<Adware>
+		<AdwareName>Ask Toolbar</AdwareName>
+		<!--Ask Toolbar base files.-->
+		<File>/Users/*/Library/Application Support/Sponsors.framework</File>
+	</Adware>
+</AdwareDefinition>
