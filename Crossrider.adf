@@ -26,18 +26,12 @@
 		<!-- <item type="contentAtPath" relativeTo="home" restart="true" filename="(cinema(s?)[- \+]*(plus|\+)?[- \+]*(pro|hd)?)|(cinema(s?) ?pl[aeiou]+s)" havingContent="">/Library/LaunchAgents/</item> -->
 		<TestedFile>
 			<Path>/Users/*/Library/LaunchAgents</Path>
-			<FilenameRegex>(cinema(s?)[- \+]*(plus|\+)?[- \+]*(pro|hd)?)|(cinema(s?) ?pl[aeiou]+s)</FilenameRegex>
-		</TestedFile>
-		<!-- <item type="contentAtPath" restart="true" filename="(cinema(s?)[- \+]*(plus|\+)?[- \+]*(pro|hd)?)|(cinema(s?) ?pl[aeiou]+s)" havingContent="">/Library/LaunchAgents/</item> -->
-		<TestedFile>
 			<Path>/Library/LaunchAgents</Path>
-			<FilenameRegex>(cinema(s?)[- \+]*(plus|\+)?[- \+]*(pro|hd)?)|(cinema(s?) ?pl[aeiou]+s)</FilenameRegex>
-		</TestedFile>
-		<!-- <item type="contentAtPath" restart="true" filename="(cinema(s?)[- \+]*(plus|\+)?[- \+]*(pro|hd)?)|(cinema(s?) ?pl[aeiou]+s)" havingContent="">/Library/LaunchDaemons/</item> -->
-		<TestedFile>
 			<Path>/Library/LaunchDaemons</Path>
 			<FilenameRegex>(cinema(s?)[- \+]*(plus|\+)?[- \+]*(pro|hd)?)|(cinema(s?) ?pl[aeiou]+s)</FilenameRegex>
 		</TestedFile>
+		<!-- <item type="contentAtPath" restart="true" filename="(cinema(s?)[- \+]*(plus|\+)?[- \+]*(pro|hd)?)|(cinema(s?) ?pl[aeiou]+s)" havingContent="">/Library/LaunchAgents/</item> -->
+		<!-- <item type="contentAtPath" restart="true" filename="(cinema(s?)[- \+]*(plus|\+)?[- \+]*(pro|hd)?)|(cinema(s?) ?pl[aeiou]+s)" havingContent="">/Library/LaunchDaemons/</item> -->
 		<!-- <item type="contentAtPath" filename="com\.crossrider\.wss\d+\.agent\.plist" relativeTo="home" unload="true" restart="true">Library/LaunchAgents/</item> -->
 		<TestedFile>
             <Path>/Users/*/Library/LaunchAgents</Path>
