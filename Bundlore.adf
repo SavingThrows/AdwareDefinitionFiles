@@ -41,4 +41,4 @@
 		<!-- <item type="contentAtPath" relativeTo="home" filename="com\.extensions\.updater[0123456789]*\.ver">Library/LaunchAgents/</item> -->
 		<File>/Users/*/Library/ScriptingAdditions/BrowserHelper.osax</File>
 	</Adware>
-<AdwareDefinition>
+</AdwareDefinition>
