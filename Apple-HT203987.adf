@@ -1,5 +1,5 @@
 <AdwareDefinition>
-	<Version>1.0</Version>
+	<Version>1.1</Version>
 	<DefinitionAuthor>Shea Craig</DefinitionAuthor>
 	<DefinitionSource>https://support.apple.com/en-us/ht203987</DefinitionSource>
 	<!-- This is strictly the files described in the Apple document referenced in
@@ -21,15 +21,7 @@
 		names. The name I have seen in the wild is "projectX". -->
 		<TestedFile>
 			<File>/Library/LaunchAgents/com.*.agent.plist</File>
-			<Regex>.*/Library/Application Support/(.*)/Agent/agent.app/Contents/MacOS/agent</Regex>
-			<ReplacementKey>AGENT</ReplacementKey>
-		</TestedFile>
-		<TestedFile>
 			<File>/Library/LaunchDaemons/com.*.helper.plist</File>
-			<Regex>.*/Library/Application Support/(.*)/Agent/agent.app/Contents/MacOS/agent</Regex>
-			<ReplacementKey>AGENT</ReplacementKey>
-		</TestedFile>
-		<TestedFile>
 			<File>/Library/LaunchDaemons/com.*.daemon.plist</File>
 			<Regex>.*/Library/Application Support/(.*)/Agent/agent.app/Contents/MacOS/agent</Regex>
 			<ReplacementKey>AGENT</ReplacementKey>
