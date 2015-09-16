@@ -9,28 +9,40 @@
 		<File>/Users/*/Library/LaunchAgents/Safari Security</File>
 		<!-- <item type="contentAtPath" filename="(cinema(s?)[- \+]*(plus|\+)?[- \+]*(pro|hd)?)|(cinema(s?) ?pl[aeiou]+s)" havingContent="com\.(cinema(s?)[- \+]*(plus|\+)?[- \+]*(pro|hd)?)|(cinema(s?) ?pl[aeiou]+s)\.Service">/Library/</item> -->
 		<!-- <item type="contentAtPath" relativeTo="home" restart="true" filename="flashmall" havingContent="">/Library/LaunchAgents/</item> -->
-		<RegexFilename>
+		<TestedFile>
 			<Path>/Users/*/Library/LaunchAgents</Path>
-			<Regex>flashmall</Regex>
-		</RegexFilename>
+			<FilenameRegex>flashmall</FilenameRegex>
+		</TestedFile>
 		<!-- <item type="contentAtPath" relativeTo="home" restart="true" filename="shopp?y.?mate" havingContent="">/Library/LaunchAgents/</item> -->
-		<RegexFilename>
+		<TestedFile>
 			<Path>/Users/*/Library/LaunchAgents</Path>
-			<Regex>shopp?y.?mate</Regex>
-		</RegexFilename>
+			<FilenameRegex>shopp?y.?mate</FilenameRegex>
+		</TestedFile>
 		<!-- <item type="contentAtPath" relativeTo="home" restart="true" filename="palmall" havingContent="">/Library/LaunchAgents/</item> -->
-		<RegexFilename>
+		<TestedFile>
 			<Path>/Users/*/Library/LaunchAgents</Path>
-			<Regex>palmall</Regex>
-		</RegexFilename>
+			<FilenameRegex>palmall</FilenameRegex>
+		</TestedFile>
 		<!-- <item type="contentAtPath" relativeTo="home" restart="true" filename="(cinema(s?)[- \+]*(plus|\+)?[- \+]*(pro|hd)?)|(cinema(s?) ?pl[aeiou]+s)" havingContent="">/Library/LaunchAgents/</item> -->
-		<RegexFilename>
+		<TestedFile>
 			<Path>/Users/*/Library/LaunchAgents</Path>
-			<Regex>(cinema(s?)[- \+]*(plus|\+)?[- \+]*(pro|hd)?)|(cinema(s?) ?pl[aeiou]+s)</Regex>
-		</RegexFilename>
+			<FilenameRegex>(cinema(s?)[- \+]*(plus|\+)?[- \+]*(pro|hd)?)|(cinema(s?) ?pl[aeiou]+s)</FilenameRegex>
+		</TestedFile>
 		<!-- <item type="contentAtPath" restart="true" filename="(cinema(s?)[- \+]*(plus|\+)?[- \+]*(pro|hd)?)|(cinema(s?) ?pl[aeiou]+s)" havingContent="">/Library/LaunchAgents/</item> -->
+		<TestedFile>
+			<Path>/Library/LaunchAgents</Path>
+			<FilenameRegex>(cinema(s?)[- \+]*(plus|\+)?[- \+]*(pro|hd)?)|(cinema(s?) ?pl[aeiou]+s)</FilenameRegex>
+		</TestedFile>
 		<!-- <item type="contentAtPath" restart="true" filename="(cinema(s?)[- \+]*(plus|\+)?[- \+]*(pro|hd)?)|(cinema(s?) ?pl[aeiou]+s)" havingContent="">/Library/LaunchDaemons/</item> -->
+		<TestedFile>
+			<Path>/Library/LaunchDaemons</Path>
+			<FilenameRegex>(cinema(s?)[- \+]*(plus|\+)?[- \+]*(pro|hd)?)|(cinema(s?) ?pl[aeiou]+s)</FilenameRegex>
+		</TestedFile>
 		<!-- <item type="contentAtPath" filename="com\.crossrider\.wss\d+\.agent\.plist" relativeTo="home" unload="true" restart="true">Library/LaunchAgents/</item> -->
+		<TestedFile>
+            <Path>/Users/*/Library/LaunchAgents</Path>
+			<FilenameRegex>com\.crossrider\.wss\d+\.agent\.plist</FilenameRegex>
+		</TestedFile>
 		<File>/Users/*/Library/LaunchAgents/WebSocketServerApp</File>
 		<File>/Users/*/Library/LaunchAgents/com.webhelper.plist</File>
 		<File>/Users/*/Library/LaunchAgents/com.webtools.update.agent.plist</File>
