@@ -4,6 +4,7 @@
 	<DefinitionSource>http://www.adwaremedic.com/signatures.xml</DefinitionSource>
 	<Adware>
 		<AdwareName>SaveKeep</AdwareName>
+        <!-- <item type="extName">su?ave ?k+e+p(o|a)*</item> -->
 		<File>/Applications/Savekeep.app</File>
 	</Adware>
 </AdwareDefinition>

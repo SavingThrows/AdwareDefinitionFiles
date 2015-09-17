@@ -1,11 +1,17 @@
 <AdwareDefinition>
-	<Version>90</Version>
+	<Version>95</Version>
 	<DefinitionAuthor>Owen Pragel</DefinitionAuthor>
 	<DefinitionSource>http://www.adwaremedic.com/signatures.xml</DefinitionSource>
 	<Adware>
 		<AdwareName>Spigot</AdwareName>
+        <!-- <item type="extName">(searchme)|(slick ?savings)|(amazon ?shopping ?assistant)|(ebay ?shopping ?assistant)|(domain ?error ?assistant)</item> -->
 		<File>/Users/*/Library/LaunchAgents/com.spigot.SearchProtection.plist</File>
 		<File>/Users/*/Library/LaunchAgents/com.spigot.ApplicationManager.plist</File>
 		<File>/Users/*/Library/Application Support/Spigot/</File>
+		<TestedFile>
+            <Path>/Users/*/Library/Application Support/Firefox/Profiles/*/searchplugins</Path>
+			<FilenameRegex>.*\.xml</FilenameRegex>
+			<Regex>search\.yahoo\.com/search\?fr=spigot</Regex>
+		</TestedFile>
 	</Adware>
 </AdwareDefinition>

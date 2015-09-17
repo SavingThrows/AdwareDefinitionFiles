@@ -1,9 +1,10 @@
 <AdwareDefinition>
-	<Version>90</Version>
+	<Version>95</Version>
 	<DefinitionAuthor>Owen Pragel</DefinitionAuthor>
 	<DefinitionSource>http://www.adwaremedic.com/signatures.xml</DefinitionSource>
 	<Adware>
 		<AdwareName>CustomSearch</AdwareName>
+        <!-- <item type="extContent">http\://linkury-dynamicinjections-net\.trafficmanager\.net/InjectionsService\.svc/GetPublisherInjectionsByPublisherAndCountry\?</item> -->
 		<File>/Users/*/Applications/SilentInstaller.app</File>
 	</Adware>
 </AdwareDefinition>

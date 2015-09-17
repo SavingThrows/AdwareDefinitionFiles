@@ -1,5 +1,5 @@
 <AdwareDefinition>
-	<Version>90</Version>
+	<Version>95</Version>
 	<DefinitionAuthor>Owen Pragel</DefinitionAuthor>
 	<DefinitionSource>http://www.adwaremedic.com/signatures.xml</DefinitionSource>
 	<Comment>This is a work in progress, and as such, many lines are as of yet unconverted to ADF format.</Comment>
