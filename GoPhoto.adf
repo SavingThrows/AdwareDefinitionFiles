@@ -2,6 +2,7 @@
 	<Version>90</Version>
 	<DefinitionAuthor>Owen Pragel</DefinitionAuthor>
 	<DefinitionSource>http://www.adwaremedic.com/signatures.xml</DefinitionSource>
+    <Comment>The source for this adware seems to no longer specify this in its definitions.</Comment>
 	<Adware>
 		<AdwareName>GoPhoto</AdwareName>
 		<File>/Users/*/Library/Application Support/Google/Chrome/External Extensions/ccfjbdjailljfihgkoccfbiljjapiijb.json</File>
