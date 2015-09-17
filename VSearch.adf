@@ -1,5 +1,5 @@
 <AdwareDefinition>
-	<Version>90</Version>
+	<Version>95</Version>
 	<DefinitionAuthor>Owen Pragel</DefinitionAuthor>
 	<DefinitionSource>http://www.adwaremedic.com/signatures.xml</DefinitionSource>
 	<Comment>This definition is based on the AdwareMedic list of files, not the Apple kbase article. It includes some different things.</Comment>
@@ -13,13 +13,50 @@
 		<File>/Library/LaunchDaemons/Jack.plist</File>
 		<File>/Library/PrivilegedHelperTools/Jack</File>
 		<File>/System/Library/Frameworks/VSearch.framework</File>
-		<!-- <item type="contentAtPath" filename="" havingContent="Frameworks/v\.framework" subfile="Version.plist">/Library/Application Support/</item> -->
-		<!-- <item type="contentAtPath" filename="" havingContent="&lt;string&gt;[0-9a-f]+\.com&lt;/string&gt;" subfile="f">/Library/Application Support/</item> -->
-		<!-- <item type="contentAtPath" filename="^[0-9a-f]{16}$">/Library/Application Support/</item> -->
-		<!-- <item type="contentAtPath" unload="true" restart="true" filename="com\.[^\.]+\.agent\.plist" havingContent="(com\.v\.agent)|(/Application Support/[0-9a-f]+/Agent/[^\.]+\.app)">/Library/LaunchAgents/</item> -->
-		<!-- <item type="contentAtPath" unload="true" restart="true" filename="com\.[^\.]+\.(daemon|helper)\.plist" havingContent="(com\.v\.(daemon|helper))|(/Application Support/[0-9a-f]+/Agent/[^\.]+\.app)">/Library/LaunchDaemons/</item> -->
-		<!-- <item type="contentAtPath" unload="true" restart="true" filename="com\.[^\.]+\.agent\.plist" havingContent="/Agent/agent\.app/Contents/MacOS/agent">/Library/LaunchAgents/</item> -->
-		<!-- <item type="contentAtPath" unload="true" restart="true" filename="com\.[^\.]+\.(daemon|helper)\.plist" havingContent="/Agent/agent\.app/Contents/MacOS/agent">/Library/LaunchDaemons/</item> -->
+		<TestedFile>
+            <File>/Library/Application Support/*/Version.plist</File>
+			<Regex>Frameworks/v\.framework</Regex>
+		</TestedFile>
+		<TestedFile>
+            <File>/Library/Application Support/*/f</File>
+			<Regex>&lt;string&gt;[0-9a-f]+\.com&lt;/string&gt;</Regex>
+		</TestedFile>
+		<TestedFile>
+            <File>/Library/Application Support/*/f</File>
+			<Regex>zzz.loader</Regex>
+		</TestedFile>
+		<TestedFile>
+            <Path>/Library/Application Support</Path>
+			<FilenameRegex>^[0-9a-f]{16}$</FilenameRegex>
+		</TestedFile>
+		<TestedFile>
+            <Path>/Library/LaunchAgents</Path>
+			<FilenameRegex>com\.[^\.]+\.agent\.plist</FilenameRegex>
+			<Regex>(com\.v\.agent)|(/Application Support/[0-9a-f]+/Agent/[^\.]+\.app)</Regex>
+		</TestedFile>
+		<TestedFile>
+            <Path>/Library/LaunchDaemons</Path>
+			<FilenameRegex>com\.[^\.]+\.(daemon|helper)\.plist</FilenameRegex>
+			<Regex>(com\.v\.(daemon|helper))|(/Application Support/[0-9a-f]+/Agent/[^\.]+\.app)</Regex>
+		</TestedFile>
+		<TestedFile>
+            <Path>/Library/LaunchAgents</Path>
+			<FilenameRegex>com\.[^\.]+\.agent\.plist</FilenameRegex>
+			<Regex>/Agent/agent\.app/Contents/MacOS/agent</Regex>
+		</TestedFile>
+		<TestedFile>
+            <Path>/Library/LaunchDaemons</Path>
+			<FilenameRegex>com\.[^\.]+\.(daemon|helper)\.plist</FilenameRegex>
+			<Regex>/Agent/agent\.app/Contents/MacOS/agent</Regex>
+		</TestedFile>
 		<File>/System/Library/Frameworks/v.framework</File>
+		<File>/System/Library/Frameworks/Horntail.framework</File>
+		<File>/System/Library/Frameworks/Underbeat.framework</File>
+		<File>/System/Library/Frameworks/AnoxicMitral.framework</File>
+		<File>/System/Library/Frameworks/PegasoidVaporizable.framework</File>
+		<File>/System/Library/Frameworks/CompurgatorLlanberisslate.framework</File>
+		<File>/System/Library/Frameworks/Lycidae.framework</File>
+		<File>/System/Library/Frameworks/leptoprosopic.framework</File>
+		<File>/System/Library/Frameworks/courbashguana.framework</File>
 	</Adware>
 </AdwareDefinition>
