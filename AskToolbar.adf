@@ -6,5 +6,7 @@
 		<AdwareName>Ask Toolbar</AdwareName>
 		<!--Ask Toolbar base files.-->
 		<File>/Users/*/Library/Application Support/Sponsors.framework</File>
+        <!-- <item type="extName">Search App by Ask</item> -->
+        <!-- <item type="extName">Allin1Convert</item> -->
 	</Adware>
 </AdwareDefinition>

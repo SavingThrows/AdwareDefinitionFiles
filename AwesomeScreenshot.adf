@@ -4,6 +4,7 @@
 	<DefinitionSource>Linde Group</DefinitionSource>
 	<Adware>
 		<AdwareName>Awesome Screenshot</AdwareName>
+        <!-- <item type="extName">awesome ?screenshot</item> -->
 		<!--Awesome Screenshot base files.-->
 		<File>/Users/*/Library/Application Support/Google/Chrome/Default/Extensions/alelhddbbhepgpmgidjdcjakblofbmce</File>
 	</Adware>
