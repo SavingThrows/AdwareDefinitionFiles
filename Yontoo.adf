@@ -5,6 +5,6 @@
 	<Adware>
 		<AdwareName>Yontoo</AdwareName>
 		<File>/Users/*/Library/Application Support/Google/Chrome/YontooLayers.crx</File>
-		<File>/Users/*/Library/Application Support/Firefox/Profiles/*/user.js</File>
+        <!-- This is just the Firefox profile. <File>/Users/*/Library/Application Support/Firefox/Profiles/*/user.js</File>-->
 	</Adware>
 </AdwareDefinition>

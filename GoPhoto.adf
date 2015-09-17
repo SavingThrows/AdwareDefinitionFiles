@@ -5,7 +5,7 @@
 	<Adware>
 		<AdwareName>GoPhoto</AdwareName>
 		<File>/Users/*/Library/Application Support/Google/Chrome/External Extensions/ccfjbdjailljfihgkoccfbiljjapiijb.json</File>
-		<File>/Users/*/Library/Application Support/Firefox/Profiles/*/user.js</File>
-		<File>/Users/*/Library/Application Support/Firefox/Profiles/*/prefs.js</File>
+        <!-- This is just the Firefox profile. <File>/Users/*/Library/Application Support/Firefox/Profiles/*/user.js</File>-->
+        <!-- This is the Firefox profile. Leave alone. <File>/Users/*/Library/Application Support/Firefox/Profiles/*/prefs.js</File> -->
 	</Adware>
 </AdwareDefinition>
