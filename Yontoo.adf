@@ -1,10 +1,13 @@
 <AdwareDefinition>
-	<Version>90</Version>
+	<Version>95</Version>
+	<SavingThrowVersion>1.1.0</Version>
 	<DefinitionAuthor>Owen Pragel</DefinitionAuthor>
 	<DefinitionSource>http://www.adwaremedic.com/signatures.xml</DefinitionSource>
 	<Adware>
 		<AdwareName>Yontoo</AdwareName>
 		<File>/Users/*/Library/Application Support/Google/Chrome/YontooLayers.crx</File>
-		<File>/Users/*/Library/Application Support/Firefox/Profiles/*/user.js</File>
+        <!-- This is just the Firefox profile. <File>/Users/*/Library/Application Support/Firefox/Profiles/*/user.js</File>-->
+        <!-- No extension handling yet <item type="extName">(yontoo)|(torrent ?handler)</item>
+        <item type="extName">(gophoto[-\.]?it)|(freehdsport)</item> -->
 	</Adware>
 </AdwareDefinition>

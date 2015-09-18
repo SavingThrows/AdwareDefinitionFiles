@@ -1,11 +1,15 @@
 <AdwareDefinition>
-	<Version>90</Version>
+	<Version>95</Version>
+	<SavingThrowVersion>1.1.0</Version>
 	<DefinitionAuthor>Owen Pragel</DefinitionAuthor>
 	<DefinitionSource>http://www.adwaremedic.com/signatures.xml</DefinitionSource>
 	<Comment>This is a work in progress, and as such, many lines are as of yet unconverted to ADF format.</Comment>
 	<Adware>
 		<AdwareName>ListenToYouTube</AdwareName>
-		<!-- <item type="contentAtPath" unload="true" restart="true" havingContent="&lt;string&gt;/Library/Application Support/ListenToYoutube/[^/]*/ListenToYoutube&lt;/string&gt;">/Library/LaunchDaemons/</item> -->
+		<TestedFile>
+            <File>/Library/LaunchDaemons/*</File>
+			<Regex>&lt;string&gt;/Library/Application Support/ListenToYoutube/[^/]*/ListenToYoutube&lt;/string&gt;</Regex>
+		</TestedFile>
 		<File>/Library/Application Support/ListenToYoutube</File>
 	</Adware>
 </AdwareDefinition>

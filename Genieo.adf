@@ -1,5 +1,6 @@
 <AdwareDefinition>
-	<Version>90</Version>
+	<Version>95</Version>
+	<SavingThrowVersion>1.1.0</Version>
 	<DefinitionAuthor>Owen Pragel</DefinitionAuthor>
 	<DefinitionSource>http://www.adwaremedic.com/signatures.xml</DefinitionSource>
 	<Comment>This definition is based on the AdwareMedic list of files, not the Apple kbase article. It includes some different things.</Comment>
@@ -8,13 +9,22 @@
 		<AdwareName>Genieo</AdwareName>
 		<!-- <item type="login">Genieo</item> -->
 		<!-- <item type="login">InKeepr</item> -->
+        <!-- <item type="extName" havingContent="(genieo)|(installmac)">omnibar</item> -->
+        <!-- <item type="extName" havingContent="com\.gold\.safari">GoldenBoy</item> -->
+        <!-- <item type="extName">texiday</item> -->
+        <!-- <item type="extContent">valueIMSearchEngine</item> -->
 		<File>/Users/*/Library/LaunchAgents/com.genieo.completer.download.plist</File>
 		<File>/Users/*/Library/LaunchAgents/com.genieo.completer.update.plist</File>
 		<File>/Users/*/Library/LaunchAgents/com.genieo.completer.ltvbit.plist</File>
 		<File>/Users/*/Library/LaunchAgents/com.installer.completer.download.plist</File>
 		<File>/Users/*/Library/LaunchAgents/com.installer.completer.update.plist</File>
 		<File>/Users/*/Library/LaunchAgents/com.installer.completer.ltvbit.plist</File>
-		<!-- <item type="contentAtPath" relativeTo="home" unload="true" restart="true" filename="\.((download)|(update)|(ltvbit))\.plist" havingContent="\-firstAppId">Library/LaunchAgents/</item> -->
+		<TestedFile>
+            <Path>/Users/*/Library/LaunchAgents</Path>
+            <Path>/private/var/root/Library/LaunchAgents</Path>
+			<FilenameRegex>\.((download)|(update)|(ltvbit))\.plist</FilenameRegex>
+			<Regex>\-firstAppId</Regex>
+		</TestedFile>
 		<File>/Users/*/Library/LaunchAgents/texiday.download.plist</File>
 		<File>/Users/*/Library/LaunchAgents/texiday.update.plist</File>
 		<File>/Users/*/Library/LaunchAgents/texiday.ltvbit.plist</File>
@@ -24,8 +34,14 @@
 		<File>/Library/LaunchAgents/com.genieo.completer.update.plist</File>
 		<File>/Library/LaunchDaemons/com.genieoinnovation.macextension.client.plist</File>
 		<File>/Applications/Genieo.app</File>
+		<Process>Genieo</Process>
+		<Process>genieo</Process>
 		<File>/Applications/InKeepr.app</File>
+		<Process>InKeepr</Process>
+		<Process>inkeepr</Process>
 		<File>/Applications/InstallGenieo.app</File>
+		<Process>InstallGenieo</Process>
+		<Process>installgenieo</Process>
 		<File>/Applications/Reset Search.app</File>
 		<File>/Applications/Uninstall Genieo.app</File>
 		<File>/Applications/Uninstall IM Completer.app</File>
@@ -39,6 +55,18 @@
 		<File>/Applications/Oliverto</File>
 		<File>/Applications/Epolife</File>
 		<File>/Applications/Leperdvil</File>
+		<File>/Applications/Myppes</File>
+		<File>/Applications/Otwexplain</File>
+		<File>/Applications/Quitelex</File>
+		<File>/Applications/Kuklorest</File>
+		<File>/Applications/Totiteck</File>
+		<File>/Applications/Javeview</File>
+		<File>/Applications/Qamails</File>
+		<File>/Applications/Olivernetko</File>
+		<File>/Applications/Portsayd</File>
+		<File>/Applications/mainorne</File>
+		<File>/Applications/montageobox</File>
+		<File>/Applications/JakeCares</File>
 		<File>/Users/*/Library/Application Support/com.genieoinnovation.Installer</File>
 		<File>/Users/*/Library/Application Support/Genieo</File>
 		<File>/Users/*/Library/Application Support/IM.Installer</File>
@@ -50,10 +78,25 @@
 		<File>/Users/*/Library/Application Support/Oliverto</File>
 		<File>/Users/*/Library/Application Support/Epolife</File>
 		<File>/Users/*/Library/Application Support/Leperdvil</File>
+		<File>/Users/*/Library/Application Support/Myppes</File>
+		<File>/Users/*/Library/Application Support/Otwexplain</File>
+		<File>/Users/*/Library/Application Support/Quitelex</File>
+		<File>/Users/*/Library/Application Support/Kuklorest</File>
+		<File>/Users/*/Library/Application Support/Totiteck</File>
+		<File>/Users/*/Library/Application Support/Javeview</File>
+		<File>/Users/*/Library/Application Support/Qamails</File>
+		<File>/Users/*/Library/Application Support/Olivernetko</File>
+		<File>/Users/*/Library/Application Support/Portsayd</File>
+		<File>/Users/*/Library/Application Support/mainorne</File>
+		<File>/Users/*/Library/Application Support/montageobox</File>
+		<File>/Users/*/Library/Application Support/JakeCares</File>
 		<File>/Library/PrivilegedHelperTools/com.genieoinnovation.macextension.client</File>
 		<File>/Library/Frameworks/GenieoExtra.framework</File>
 		<File>/Users/*/Library/Application Support/Firefox/Profiles/*/searchplugins/my-homepage.xml</File>
-		<File>/private/etc/launchd.conf</File>
+		<TestedFile>
+            <File>/private/etc/launchd.conf</File>
+			<Regex>lib(gen|imc)kit(sa)?\.dylib</Regex>
+		</TestedFile>
 		<File>/usr/lib/libgenkit.dylib</File>
 		<File>/usr/lib/libgenkitsa.dylib</File>
 		<File>/usr/lib/libimckit.dylib</File>

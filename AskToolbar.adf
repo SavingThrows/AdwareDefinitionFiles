@@ -1,10 +1,13 @@
 <AdwareDefinition>
 	<Version>1.0</Version>
+	<SavingThrowVersion>1.1.0</Version>
 	<DefinitionAuthor>Elliot Jordan</DefinitionAuthor>
 	<DefinitionSource>Linde Group</DefinitionSource>
 	<Adware>
 		<AdwareName>Ask Toolbar</AdwareName>
 		<!--Ask Toolbar base files.-->
 		<File>/Users/*/Library/Application Support/Sponsors.framework</File>
+        <!-- <item type="extName">Search App by Ask</item> -->
+        <!-- <item type="extName">Allin1Convert</item> -->
 	</Adware>
 </AdwareDefinition>

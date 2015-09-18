@@ -1,11 +1,15 @@
 <AdwareDefinition>
-	<Version>90</Version>
+	<Version>95</Version>
+	<SavingThrowVersion>1.1.0</Version>
 	<DefinitionAuthor>Owen Pragel</DefinitionAuthor>
 	<DefinitionSource>http://www.adwaremedic.com/signatures.xml</DefinitionSource>
 	<Adware>
 		<AdwareName>FkCodec</AdwareName>
+        <!-- <item type="extName">codec-?m</item> -->
 		<File>/Users/*/Library/Application Support/Codec-M</File>
 		<File>/Users/*/Library/LaunchAgents/com.codecm.uploader.plist</File>
 		<File>/Applications/Codec-M.app</File>
+		<Process>Codec-M</Process>
+		<Process>codec-m</Process>
 	</Adware>
 </AdwareDefinition>

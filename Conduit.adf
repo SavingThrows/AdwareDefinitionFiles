@@ -1,10 +1,14 @@
 <AdwareDefinition>
-	<Version>90</Version>
+	<Version>95</Version>
+	<SavingThrowVersion>1.1.0</Version>
 	<DefinitionAuthor>Owen Pragel</DefinitionAuthor>
 	<DefinitionSource>http://www.adwaremedic.com/signatures.xml</DefinitionSource>
 	<Comment>This definition is based on the AdwareMedic list of files, not the Apple kbase article. It includes some different things.</Comment>
 	<Adware>
 		<AdwareName>Conduit</AdwareName>
+        <!-- No extension support yet
+		<item type="extContent">http://www\.trovi\.com</item>
+        <item type="extName">(conduit)|(searchext)|(mybrand)|( Community Toolbar)|(search ?protect)|(trovi)</item> -->
 		<File>/Users/*/Library/Application Support/Google/Chrome/Default/Extensions/cbmjmfcldbpelhknnfjbkobmabafpoed</File>
 		<File>/Library/InputManagers/CTLoader/</File>
 		<File>/Library/LaunchAgents/com.conduit.loader.agent.plist</File>
@@ -12,15 +16,25 @@
 		<File>/Library/Application Support/SIMBL/Plugins/CT2285220.bundle</File>
 		<File>/Library/Application Support/Conduit/</File>
 		<File>/Applications/SearchProtect.app</File>
+		<Process>SearchProtect</Process>
+		<Process>searchprotect</Process>
 		<File>/Applications/SearchProtect/</File>
 		<File>/Users/*/Conduit</File>
 		<File>/Users/*/Trovi</File>
+		<TestedFile>
+            <File>/Users/*/Conduit</File>
+			<Regex>search\.conduit\.com</Regex>
+		</TestedFile>
 		<File>/Users/*/Library/Application Support/Conduit</File>
+		<TestedFile>
+            <File>/Users/*/Library/Application Support/Conduit</File>
+            <File>/Library/Application Support/Conduit</File>
+			<Regex>search\.conduit\.com</Regex>
+		</TestedFile>
 		<File>/Users/*/Library/Internet Plug-Ins/ConduitNPAPIPlugin.plugin</File>
 		<File>/Users/*/Library/Internet Plug-Ins/TroviNPAPIPlugin.plugin</File>
 		<File>/Users/*/Library/Application Support/Firefox/Profiles/*/searchplugins/conduit.xml</File>
 		<File>/Users/*/Library/Application Support/Firefox/Profiles/*/searchplugins/MyBrand.xml</File>
-		<!-- Are these ' intentional? -->
 		<File>/Users/*/Library/Application Support/Firefox/Profiles/*/searchplugins/'Conduit Customized Web Search'.xml</File>
 		<File>/Users/*/Library/Application Support/Firefox/Profiles/*/takeOverNewTab.txt</File>
 		<File>/Users/*/Library/Application Support/Firefox/Profiles/*/abstraction.js</File>

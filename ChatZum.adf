@@ -1,9 +1,11 @@
 <AdwareDefinition>
-	<Version>90</Version>
+	<Version>95</Version>
+	<SavingThrowVersion>1.1.0</Version>
 	<DefinitionAuthor>Owen Pragel</DefinitionAuthor>
 	<DefinitionSource>http://www.adwaremedic.com/signatures.xml</DefinitionSource>
 	<Adware>
 		<AdwareName>ChatZum</AdwareName>
+        <!-- <item type="extName">chatzum</item> -->
 		<File>/Applications/ChatZumUninstaller.pkg</File>
 		<File>/Library/Application Support/SIMBL/Plugins/SafariOmnibar.bundle</File>
 		<File>/Library/Internet Plug-Ins/uid.plist</File>

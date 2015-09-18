@@ -1,19 +1,30 @@
 <AdwareDefinition>
-	<Version>90</Version>
+	<Version>95</Version>
+	<SavingThrowVersion>1.1.0</Version>
 	<DefinitionAuthor>Owen Pragel</DefinitionAuthor>
 	<DefinitionSource>http://www.adwaremedic.com/signatures.xml</DefinitionSource>
 	<Comment>This is a work in progress, and as such, many lines are as of yet unconverted to ADF format.</Comment>
 	<Adware>
 		<AdwareName>Vidx/MacVX</AdwareName>
+        <!-- <item type="extName">(vi+[aeiou]*d+[aeiou]*x+)|(macv[aeiou]?x[aeiou]?)|(mac ?captain)|(mac ?price ?cut)|(save ?on ?mac)|(mac ?global ?deals)|(^macster)|(macdeals)|(s+hop ?bra+i+n)</item> -->
+        <!-- <item type="extName">m+[aeiou]*cm+[aeiou]*n+[aeiou]*</item> -->
+        <!-- <item type="extContent">zycript</item> -->
 		<File>/Applications/Vidx.app</File>
 		<File>/Applications/MacMin.app</File>
 		<File>/Users/*/Applications/Vidx.app</File>
 		<File>/Users/*/Applications/MacMin.app</File>
-		<File>/Users/*/Library/Safari/Extensions/extension.safariextz</File>
+		<Process>Vidx</Process>
+		<Process>vidx</Process>
+		<Process>MacMin</Process>
+		<Process>macmin</Process>
+        <!-- <File>/Users/*/Library/Safari/Extensions/extension.safariextz</File> -->
 		<!-- This line is disabled because it is the Chrome preferences which everyone has.
 		<File>/Users/*/Library/Application Support/Google/Chrome/Default/Preferences</File> -->
 		<File>/Library/Application Support/VidToMP3/</File>
-		<!-- <item type="contentAtPath" havingContent="/Library/Application Support/VidToMP3/">/Library/LaunchDaemons/</item> -->
+		<TestedFile>
+            <File>/Library/LaunchDaemons/*</File>
+			<Regex>/Library/Application Support/VidToMP3/</Regex>
+		</TestedFile>
 		<File>/Library/Application Support/fa4e8.94b.550d413f/</File>
 		<File>/Users/*/Library/Application Support/osxDownloader/</File>
 	</Adware>

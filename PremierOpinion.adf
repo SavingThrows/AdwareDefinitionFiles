@@ -1,11 +1,18 @@
 <AdwareDefinition>
-	<Version>90</Version>
+	<Version>95</Version>
+	<SavingThrowVersion>1.1.0</Version>
 	<DefinitionAuthor>Owen Pragel</DefinitionAuthor>
 	<DefinitionSource>http://www.adwaremedic.com/signatures.xml</DefinitionSource>
 	<Adware>
 		<AdwareName>PremierOpinion</AdwareName>
 		<File>/Applications/PremierOpinion</File>
 		<File>/Library/LaunchDaemons/PremierOpinion.plist</File>
-		<File>/i</File>
+		<File>/Library/LaunchAgents/PremierOpinionAgent.plist</File>
+        <!-- <item type="extName">PremierOpinion</item> -->
+		<TestedFile>
+			<Path>/</Path>
+			<FilenameRegex>^[a-z]$</FilenameRegex>
+			<Regex>&lt;MACSNIFFER&gt;</Regex>
+		</TestedFile>
 	</Adware>
 </AdwareDefinition>

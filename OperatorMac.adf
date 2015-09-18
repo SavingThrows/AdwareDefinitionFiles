@@ -1,13 +1,22 @@
 <AdwareDefinition>
-	<Version>90</Version>
+	<Version>95</Version>
+	<SavingThrowVersion>1.1.0</Version>
 	<DefinitionAuthor>Owen Pragel</DefinitionAuthor>
 	<DefinitionSource>http://www.adwaremedic.com/signatures.xml</DefinitionSource>
 	<Comment>Do not use this ADF! At the moment, it only deletes your Chrome preferences.</Comment>
 	<Comment>This is a work in progress, and as such, many lines are as of yet unconverted to ADF format.</Comment>
 	<Adware>
 		<AdwareName>OperatorMac</AdwareName>
-		<!-- <item type="path" havingContent="Opti[ -]?Page" relativeTo="ffprofile">searchplugins/mySearchPlug.xml</item> -->
-		<!-- <item type="contentAtPath" relativeTo="home" havingContent="var\s*userid_uuid=[^;]*;\s*var\s*[^=]*=.http://www\.hmining\.mobi" subfile="main.js">Library/Application Support/Google/Chrome/Default/</item> -->
+        <!-- <item type="extName">Opti[ -]?Page</item> -->
+        <!-- <item type="extName">Toppy</item> -->
+		<TestedFile>
+            <Path>/Users/*/Library/Application Support/Firefox/Profiles/*/searchplugins/mySearchPlug.xml</Path>
+			<Regex>Opti[ -]?Page</Regex>
+		</TestedFile>
+        <!-- <item type="contentAtPath" relativeTo="home" havingContent="var\s*userid_uuid=[^;]*;\s*var\s*[^=]*=.http://www\.hmining\.mobi" subfile="main.js">Library/Application Support/Google/Chrome/Default/</item> -->
 		<!-- <File>/Users/*/Library/Application Support/Google/Chrome/Default/Preferences</File> -->
+        <File>/Users/*/Library/Application Support/mediahm/</File>
+        <!-- Strange, since there aren't normally LaunchDaemons for users. -->
+        <File>/Users/*/Library/LaunchDaemons/com.mediahm.operator.update.plist</File>
 	</Adware>
 </AdwareDefinition>

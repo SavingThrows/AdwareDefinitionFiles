@@ -1,9 +1,11 @@
 <AdwareDefinition>
 	<Version>1.0</Version>
+	<SavingThrowVersion>1.1.0</Version>
 	<DefinitionAuthor>Elliot Jordan</DefinitionAuthor>
 	<DefinitionSource>Linde Group</DefinitionSource>
 	<Adware>
 		<AdwareName>Awesome Screenshot</AdwareName>
+        <!-- <item type="extName">awesome ?screenshot</item> -->
 		<!--Awesome Screenshot base files.-->
 		<File>/Users/*/Library/Application Support/Google/Chrome/Default/Extensions/alelhddbbhepgpmgidjdcjakblofbmce</File>
 	</Adware>
