@@ -1,5 +1,6 @@
 <AdwareDefinition>
 	<Version>1.0</Version>
+	<SavingThrowVersion>1.1.0</Version>
 	<DefinitionAuthor>Elliot Jordan</DefinitionAuthor>
 	<DefinitionSource>Linde Group</DefinitionSource>
 	<Adware>
