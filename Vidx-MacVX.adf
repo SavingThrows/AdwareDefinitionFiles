@@ -12,6 +12,10 @@
 		<File>/Applications/MacMin.app</File>
 		<File>/Users/*/Applications/Vidx.app</File>
 		<File>/Users/*/Applications/MacMin.app</File>
+		<Process>Vidx</Process>
+		<Process>vidx</Process>
+		<Process>MacMin</Process>
+		<Process>macmin</Process>
         <!-- <File>/Users/*/Library/Safari/Extensions/extension.safariextz</File> -->
 		<!-- This line is disabled because it is the Chrome preferences which everyone has.
 		<File>/Users/*/Library/Application Support/Google/Chrome/Default/Preferences</File> -->
