@@ -1,6 +1,6 @@
 <AdwareDefinition>
 	<Version>95</Version>
-	<SavingThrowVersion>1.1.0</Version>
+	<SavingThrowVersion>1.1.0</SavingThrowVersion>
 	<DefinitionAuthor>Owen Pragel</DefinitionAuthor>
 	<DefinitionSource>http://www.adwaremedic.com/signatures.xml</DefinitionSource>
 	<Comment>This definition is based on the AdwareMedic list of files, not the Apple kbase article. It includes some different things.</Comment>

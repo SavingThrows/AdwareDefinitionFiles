@@ -1,6 +1,6 @@
 <AdwareDefinition>
     <Version>1.1</Version>
-	<SavingThrowVersion>1.1.0</Version>
+	<SavingThrowVersion>1.1.0</SavingThrowVersion>
     <DefinitionAuthor>Shea Craig</DefinitionAuthor>
     <DefinitionSource>Durham Academy</DefinitionSource>
 	<Comment>ZipCloud is included in the JDIBackup ADF found in this repo. This is a duplicate of that just to ensure people already using it don't lose the ability to scan for those files.</Comment>

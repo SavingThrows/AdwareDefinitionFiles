@@ -1,6 +1,6 @@
 <AdwareDefinition>
 	<Version>95</Version>
-	<SavingThrowVersion>1.1.0</Version>
+	<SavingThrowVersion>1.1.0</SavingThrowVersion>
 	<DefinitionAuthor>Owen Pragel</DefinitionAuthor>
 	<DefinitionSource>http://www.adwaremedic.com/signatures.xml</DefinitionSource>
 	<Comment>This is a work in progress, and as such, many lines are as of yet unconverted to ADF format.</Comment>
@@ -18,8 +18,8 @@
 		<Process>MacMin</Process>
 		<Process>macmin</Process>
         <!-- <File>/Users/*/Library/Safari/Extensions/extension.safariextz</File> -->
-		<!-- This line is disabled because it is the Chrome preferences which everyone has.
-		<File>/Users/*/Library/Application Support/Google/Chrome/Default/Preferences</File> -->
+        <!-- This line is disabled because it is the Chrome preferences which everyone has. -->
+        <!--<File>/Users/*/Library/Application Support/Google/Chrome/Default/Preferences</File> -->
 		<File>/Library/Application Support/VidToMP3/</File>
 		<TestedFile>
             <File>/Library/LaunchDaemons/*</File>
