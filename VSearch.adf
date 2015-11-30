@@ -13,6 +13,7 @@
 		<File>/Library/LaunchDaemons/com.vsearch.helper.plist</File>
 		<File>/Library/LaunchDaemons/Jack.plist</File>
 		<File>/Library/PrivilegedHelperTools/Jack</File>
+		<File>/System/Library/Frameworks/v.framework</File>
 		<File>/System/Library/Frameworks/VSearch.framework</File>
 		<TestedFile>
             <File>/Library/Application Support/*/Version.plist</File>
@@ -56,5 +57,7 @@
 		<File>/System/Library/Frameworks/Lycidae.framework</File>
 		<File>/System/Library/Frameworks/leptoprosopic.framework</File>
 		<File>/System/Library/Frameworks/courbashguana.framework</File>
-	</Adware>
+		<File>/Users/*/Library/Caches/com.VSearch.bulk.installer</File>
+		<File>/Users/*/Library/Caches/com.VSearch.VSinstaller</File>
+			</Adware>
 </AdwareDefinition>
