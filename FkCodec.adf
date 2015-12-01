@@ -6,7 +6,7 @@
 	<Adware>
 		<AdwareName>FkCodec</AdwareName>
         <!-- <item type="extName">codec-?m</item> -->
-		<File>/Users/*/Library/Application Support/Codec-M</File>
+		<File cruft="true">/Users/*/Library/Application Support/Codec-M</File>
 		<File>/Users/*/Library/LaunchAgents/com.codecm.uploader.plist</File>
 		<File>/Applications/Codec-M.app</File>
 		<Process>Codec-M</Process>
