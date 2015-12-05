@@ -1,0 +1,10 @@
+<AdwareDefinition>
+	<Version>1.0</Version>
+	<SavingThrowVersion>1.1.0</SavingThrowVersion>
+	<DefinitionAuthor>David West</DefinitionAuthor>
+	<DefinitionSource>David West</DefinitionSource>
+	<Adware>
+		<AdwareName>Hola</AdwareName>
+		<File>/Users/*/Library/Application Support/Google/Chrome/Default/Extensions/gkojfkhlekighikafcpjkiklfbnlmeio</File>
+	</Adware>
+</AdwareDefinition>
