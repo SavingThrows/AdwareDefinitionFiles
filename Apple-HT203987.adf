@@ -1,0 +1,73 @@
+<AdwareDefinition>
+	<Version>1.1</Version>
+	<SavingThrowVersion>1.1.0</SavingThrowVersion>
+	<DefinitionAuthor>Shea Craig</DefinitionAuthor>
+	<DefinitionSource>https://support.apple.com/en-us/ht203987</DefinitionSource>
+	<!-- This is strictly the files described in the Apple document referenced in
+	Definition Source. There are potentially more files installed by these pieces
+	of software which are not included in this list.
+	-->
+	<Adware>
+		<AdwareName>Downlite and VSearch Variants</AdwareName>
+		<!-- This is one place where I have found this; the "projectX" variant" -->
+		<AdwareSource>http://www.deal-top.com</AdwareSource>
+		<File>/System/Library/Frameworks/v.framework</File>
+		<File>/System/Library/Frameworks/VSearch.framework</File>
+		<File>/Library/PrivilegedHelperTools/Jack</File>
+		<File>/Library/LaunchDaemons/Jack.plist</File>
+		<File>/Users/*/Library/Caches/com.VSearch.bulk.installer</File>
+		<File>/Users/*/Library/Caches/com.VSearch.VSinstaller</File>
+		<File>/Users/*/Library/Saved Application State/com.VSearch.bulk.installer.savedstate</File>
+		<!-- These files often have seemingly random, although consistently applied,
+		names. The name I have seen in the wild is "projectX". -->
+		<TestedFile>
+			<File>/Library/LaunchAgents/com.*.agent.plist</File>
+			<File>/Library/LaunchDaemons/com.*.helper.plist</File>
+			<File>/Library/LaunchDaemons/com.*.daemon.plist</File>
+			<Regex>.*/Library/Application Support/(.*)/Agent/agent.app/Contents/MacOS/agent</Regex>
+			<ReplacementKey>AGENT</ReplacementKey>
+		</TestedFile>
+		<File>/Library/Application Support/%AGENT%</File>
+	</Adware>
+	<Adware>
+		<AdwareName>Conduit, Trovi, MyBrand, and Search Protect Variants</AdwareName>
+		<!-- TODO: No known source at the moment. -->
+		<File>/Library/InputManagers/CTLoader/</File>
+		<File>/Library/Application Support/Conduit/</File>
+		<File>/Users/*/Library/Internet Plug-Ins/ConduitNPAPIPlugin.plugin</File>
+		<File>/Users/*/Library/Internet Plug-Ins/TroviNPAPIPlugin.plugin</File>
+		<File>/Applications/SearchProtect.app</File>
+		<File>/Users/*/Conduit/</File>
+		<File>/Users/*/Trovi/</File>
+		<File>/Users/*/Library/Caches/com.Conduit.takeOverSearchAssetsMac</File>
+	</Adware>
+	<Adware>
+		<AdwareName>Genieo and InstallMac</AdwareName>
+		<!-- TODO: No known source at the moment. -->
+		<File>/private/etc/launchd.conf</File>
+		<File>/Applications/Genieo</File>
+		<File>/Applications/InstallMac</File>
+		<File>/Applications/Uninstall Genieo</File>
+		<File>/Applications/Uninstall IM Completer.app</File>
+		<File>/usr/lib/libgenkit.dylib</File>
+		<File>/usr/lib/libgenkitsa.dylib</File>
+		<File>/usr/lib/libimckit.dylib</File>
+		<File>/usr/lib/libimckitsa.dylib</File>
+		<File>/Library/PrivilegedHelperTools/com.genieoinnovation.macextension.client</File>
+		<File>/Users/*/Library/Application Support/Genieo/</File>
+		<File>/Users/*/Library/Application Support/com.genieoinnovation.Installer/</File>
+		<File>/Library/Frameworks/GenieoExtra.framework</File>
+		<File>/Library/LaunchAgents/com.genieo.completer.update.plist</File>
+		<File>/Library/LaunchAgents/com.genieo.engine.plist</File>
+		<File>/Library/LaunchAgents/com.genieoinnovation.macextension.client.plist</File>
+		<File>/Library/LaunchAgents/com.genieoinnovation.macextension.plist</File>
+		<File>/Library/LaunchDaemons/com.genieoinnovation.macextension.client.plist</File>
+		<File>/Users/*/Library/LaunchAgents/com.genieo.completer.download.plist</File>
+		<File>/Users/*/Library/LaunchAgents/com.genieo.completer.ltvbit.plist</File>
+		<File>/Users/*/Library/LaunchAgents/com.genieo.completer.update.plist</File>
+		<File>/Users/*/Library/Preferences/com.genieo.global.settings.plist.lockFile</File>
+		<File>/Users/*/Library/Preferences/com.geneio.settings.plist.lockFile</File>
+		<File>/Users/*/Library/Preferences/com.geneio.global.settings.plist</File>
+		<File>/Users/*/Library/Saved Application State/com.genieo.RemoveGenieoMac.savedState</File>
+	</Adware>
+</AdwareDefinition>
