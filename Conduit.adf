@@ -31,6 +31,7 @@
             <File>/Library/Application Support/Conduit</File>
 			<Regex>search\.conduit\.com</Regex>
 		</TestedFile>
+		<File>/Users/*/Library/Caches/com.Conduit.takeOverSearchAssetsMac</File>
 		<File>/Users/*/Library/Internet Plug-Ins/ConduitNPAPIPlugin.plugin</File>
 		<File>/Users/*/Library/Internet Plug-Ins/TroviNPAPIPlugin.plugin</File>
 		<File>/Users/*/Library/Application Support/Firefox/Profiles/*/searchplugins/conduit.xml</File>

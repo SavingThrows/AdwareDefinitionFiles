@@ -101,5 +101,7 @@
 		<File>/usr/lib/libgenkitsa.dylib</File>
 		<File>/usr/lib/libimckit.dylib</File>
 		<File>/usr/lib/libimckitsa.dylib</File>
+		<File>/Users/*/Library/Safari/Extensions/Oliverto.safariextz</File>
+		<File>/Users/*/Library/LaunchAgents/Feelbegin.AppRemoval.plist</File>
 	</Adware>
 </AdwareDefinition>
