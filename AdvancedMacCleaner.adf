@@ -6,11 +6,11 @@
 	<Adware>
 		<AdwareName>PUP.Advanced Mac Cleaner</AdwareName>
 		<File>/Applications/Advanced Mac Cleaner.app</File>
-		<File>/Library/Application Support/amc/</File>
-		<File>/Users/*/Library/Advanced Mac Cleaner</File>
-		<File>/Users/*/Library/hlpramc</File>
-		<File>/Users/*/Library/Application Support/Advanced Mac Cleaner</File>
-		<File>/Users/*/Library/Application Support/amc</File>
+		<File cruft="true">/Library/Application Support/amc/</File>
+		<File cruft="true">/Users/*/Library/Advanced Mac Cleaner</File>
+		<File cruft="true">/Users/*/Library/hlpramc</File>
+		<File cruft="true">/Users/*/Library/Application Support/Advanced Mac Cleaner</File>
+		<File cruft="true">/Users/*/Library/Application Support/amc</File>
 		<File>/Users/*/Library/LaunchAgents/com.pcv.hlpramc.plist</File>
 	</Adware>
 </AdwareDefinition>
