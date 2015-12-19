@@ -7,9 +7,9 @@
 	<Adware>
 		<AdwareName>ListenToYouTube</AdwareName>
 		<TestedFile>
-            <File>/Library/LaunchDaemons/*</File>
+			<File>/Library/LaunchDaemons/*</File>
 			<Regex>&lt;string&gt;/Library/Application Support/ListenToYoutube/[^/]*/ListenToYoutube&lt;/string&gt;</Regex>
 		</TestedFile>
-		<File>/Library/Application Support/ListenToYoutube</File>
+		<File cruft="true">/Library/Application Support/ListenToYoutube</File>
 	</Adware>
 </AdwareDefinition>
