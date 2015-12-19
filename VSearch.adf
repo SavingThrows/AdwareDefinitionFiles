@@ -16,48 +16,48 @@
 		<File>/System/Library/Frameworks/v.framework</File>
 		<File>/System/Library/Frameworks/VSearch.framework</File>
 		<TestedFile>
-            <File>/Library/Application Support/*/Version.plist</File>
+			<File>/Library/Application Support/*/Version.plist</File>
 			<Regex>Frameworks/v\.framework</Regex>
 		</TestedFile>
 		<TestedFile>
-            <File>/Library/Application Support/*/f</File>
+			<File>/Library/Application Support/*/f</File>
 			<Regex>&lt;string&gt;[0-9a-f]+\.com&lt;/string&gt;</Regex>
 		</TestedFile>
 		<TestedFile>
-            <File>/Library/Application Support/*/f</File>
+			<File>/Library/Application Support/*/f</File>
 			<Regex>zzz.loader</Regex>
 		</TestedFile>
 		<TestedFile>
-            <Path>/Library/Application Support</Path>
+			<Path>/Library/Application Support</Path>
 			<FilenameRegex>^[0-9a-f]{16}$</FilenameRegex>
 		</TestedFile>
 		<TestedFile>
-            <Path>/Library/LaunchAgents</Path>
+			<Path>/Library/LaunchAgents</Path>
 			<FilenameRegex>com\.[^\.]+\.agent\.plist</FilenameRegex>
 			<Regex>(com\.v\.agent)|(/Application Support/[0-9a-f]+/Agent/[^\.]+\.app)</Regex>
 		</TestedFile>
 		<TestedFile>
-            <Path>/Library/LaunchDaemons</Path>
+			<Path>/Library/LaunchDaemons</Path>
 			<FilenameRegex>com\.[^\.]+\.(daemon|helper)\.plist</FilenameRegex>
 			<Regex>(com\.v\.(daemon|helper))|(/Application Support/[0-9a-f]+/Agent/[^\.]+\.app)</Regex>
 		</TestedFile>
 		<TestedFile>
-            <Path>/Library/LaunchAgents</Path>
-            <Path>/Library/LaunchDaemons</Path>
+			<Path>/Library/LaunchAgents</Path>
+			<Path>/Library/LaunchDaemons</Path>
 			<FilenameRegex>com\.[^\.]+\.agent\.plist</FilenameRegex>
 			<FilenameRegex>com\.[^\.]+\.(daemon|helper)\.plist</FilenameRegex>
 			<Regex>/Agent/agent\.app/Contents/MacOS/agent</Regex>
 		</TestedFile>
-		<File>/System/Library/Frameworks/v.framework</File>
-		<File>/System/Library/Frameworks/Horntail.framework</File>
-		<File>/System/Library/Frameworks/Underbeat.framework</File>
 		<File>/System/Library/Frameworks/AnoxicMitral.framework</File>
-		<File>/System/Library/Frameworks/PegasoidVaporizable.framework</File>
 		<File>/System/Library/Frameworks/CompurgatorLlanberisslate.framework</File>
-		<File>/System/Library/Frameworks/Lycidae.framework</File>
-		<File>/System/Library/Frameworks/leptoprosopic.framework</File>
 		<File>/System/Library/Frameworks/courbashguana.framework</File>
+		<File>/System/Library/Frameworks/Horntail.framework</File>
+		<File>/System/Library/Frameworks/leptoprosopic.framework</File>
+		<File>/System/Library/Frameworks/Lycidae.framework</File>
+		<File>/System/Library/Frameworks/PegasoidVaporizable.framework</File>
+		<File>/System/Library/Frameworks/Underbeat.framework</File>
+		<File>/System/Library/Frameworks/v.framework</File>
 		<File>/Users/*/Library/Caches/com.VSearch.bulk.installer</File>
 		<File>/Users/*/Library/Caches/com.VSearch.VSinstaller</File>
-			</Adware>
+		</Adware>
 </AdwareDefinition>

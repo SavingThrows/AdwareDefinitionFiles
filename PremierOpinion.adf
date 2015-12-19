@@ -6,9 +6,9 @@
 	<Adware>
 		<AdwareName>PremierOpinion</AdwareName>
 		<File>/Applications/PremierOpinion</File>
-		<File>/Library/LaunchDaemons/PremierOpinion.plist</File>
 		<File>/Library/LaunchAgents/PremierOpinionAgent.plist</File>
-        <!-- <item type="extName">PremierOpinion</item> -->
+		<File>/Library/LaunchDaemons/PremierOpinion.plist</File>
+		<!-- <item type="extName">PremierOpinion</item> -->
 		<TestedFile>
 			<Path>/</Path>
 			<FilenameRegex>^[a-z]$</FilenameRegex>

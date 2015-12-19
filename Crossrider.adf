@@ -6,11 +6,11 @@
 	<Comment>This is a work in progress, and as such, many lines are as of yet unconverted to ADF format.</Comment>
 	<Adware>
 		<AdwareName>Crossrider</AdwareName>
-        <!-- Unresolved Adware extensions
+		<!-- Unresolved Adware extensions
 		<item type="extContent">(buca ?apps)|(js\.newonlinedatastack\.com)|(newonlinedemoserv\.com)|(w9u6a2p6\.ssl\.hwcdn\.net)</item>
 		<item type="extContent">&lt;string&gt;[ ]*http://www\.my-search-start\.com/search/\?asset</item>
 		<item type="extName">(cinema(s?)[- \+]*(plus|\+)?[- \+]*(pro|hd)?)|(cinema(s?) ?pl[aeiou]+s)</item>
-        <item type="extName">(shopp?y ?mate)|(flashmall)|(palmall)|(shoo?pimac)</item> -->
+		<item type="extName">(shopp?y ?mate)|(flashmall)|(palmall)|(shoo?pimac)</item> -->
 		<File>/Users/*/Library/Application Support/Google/Chrome/External Extensions/phpdijfdkggndfmgcfdhcimlflflnega.json</File>
 		<File>/Users/*/Library/LaunchAgents/Safari Security</File>
 		<TestedFile>
@@ -31,7 +31,7 @@
 			<FilenameRegex>(cinema(s?)[- \+]*(plus|\+)?[- \+]*(pro|hd)?)|(cinema(s?) ?pl[aeiou]+s)</FilenameRegex>
 		</TestedFile>
 		<TestedFile>
-            <Path>/Users/*/Library/LaunchAgents</Path>
+			<Path>/Users/*/Library/LaunchAgents</Path>
 			<FilenameRegex>com\.crossrider\.wss\d+\.agent\.plist</FilenameRegex>
 		</TestedFile>
 		<File>/Users/*/Library/LaunchAgents/WebSocketServerApp</File>
@@ -39,44 +39,44 @@
 		<File>/Users/*/Library/LaunchAgents/com.webtools.update.agent.plist</File>
 		<File>/Users/*/Library/LaunchAgents/com.webtools.uninstaller.plist</File>
 		<TestedFile>
-            <Path>/Library/LaunchAgents</Path>
+			<Path>/Library/LaunchAgents</Path>
 			<FilenameRegex>com\.webhelper\..*\.plist</FilenameRegex>
 			<Regex>/Library/Application Support/webhelper</Regex>
 		</TestedFile>
 		<TestedFile>
-            <Path>/Library/LaunchAgents</Path>
+			<Path>/Library/LaunchAgents</Path>
 			<FilenameRegex>com\.webshopper\..*\.plist</FilenameRegex>
 			<Regex>/Library/Application Support/WebShopper</Regex>
 		</TestedFile>
 		<TestedFile>
-            <Path>/Users/*/Library/LaunchAgents</Path>
+			<Path>/Users/*/Library/LaunchAgents</Path>
 			<FilenameRegex>com\.webtools\..*\.plist</FilenameRegex>
 			<Regex>/Library/Application Support/WebTools</Regex>
 		</TestedFile>
-		<File>/Users/*/Library/Application Support/webHelperApp/</File>
-		<File>/Users/*/Library/Application Support/webhelper/</File>
-		<File>/Users/*/Library/Application Support/WebTools/</File>
-		<File>/Users/*/Library/Application Support/WebShopper/</File>
-		<File>/Users/*/Library/WebTools/</File>
-		<File>/Users/*/Library/flashmall/</File>
+		<File cruft="true">/Users/*/Library/Application Support/webHelperApp/</File>
+		<File cruft="true">/Users/*/Library/Application Support/webhelper/</File>
+		<File cruft="true">/Users/*/Library/Application Support/WebTools/</File>
+		<File cruft="true">/Users/*/Library/Application Support/WebShopper/</File>
+		<File cruft="true">/Users/*/Library/WebTools/</File>
+		<File cruft="true">/Users/*/Library/flashmall/</File>
 		<File>/Applications/WebTools.app</File>
 		<File>/Applications/WebShopper.app</File>
 		<File>/Users/*/Applications/flashmall.app</File>
 		<TestedFile>
-            <Path>/Applications</Path>
-            <Path>/Users/*/Applications</Path>
+			<Path>/Applications</Path>
+			<Path>/Users/*/Applications</Path>
 			<FilenameRegex>cinema(s?)[- \+]*((plus)|(pro))[- \+0123456789]*</FilenameRegex>
 		</TestedFile>
-        <!-- This is just the Firefox profile. <File>/Users/*/Library/Application Support/Firefox/Profiles/*/user.js</File>-->
+		<!-- This is just the Firefox profile. <File>/Users/*/Library/Application Support/Firefox/Profiles/*/user.js</File>-->
 		<File>/Users/*/Library/cinemapro1-2</File>
 		<File>/Users/*/Library/LaunchAgents/UpdateDownloader</File>
 		<TestedFile>
-            <Path>/Users/*/Library/LaunchAgents</Path>
+			<Path>/Users/*/Library/LaunchAgents</Path>
 			<FilenameRegex>\.agent\.plist</FilenameRegex>
 			<Regex>UpdateDownloader</Regex>
 		</TestedFile>
 		<TestedFile>
-            <Path>/Users/*/Library/LaunchAgents</Path>
+			<Path>/Users/*/Library/LaunchAgents</Path>
 			<FilenameRegex>com\.extensions\.updater[0123456789]*\.ver</FilenameRegex>
 		</TestedFile>
 		<File>/Users/*/Library/ScriptingAdditions/BrowserHelper.osax</File>
