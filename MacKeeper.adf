@@ -8,8 +8,8 @@
 		<File>/Users/*/Library/LaunchAgents/com.*.MacKeeper.Helper.plist</File>
 		<File>/Users/*/Documents/MacKeeper Backups</File>
 		<File>/Applications/MacKeeper.app</File>
-		<File>/Users/*/Library/Application Support/MacKeeper Helper</File>
-		<File>/Users/*/Library/Caches/com.mackeeper.MacKeeper</File>
+		<File cruft="true">/Users/*/Library/Application Support/MacKeeper Helper</File>
+		<File cruft="true">/Users/*/Library/Caches/com.mackeeper.MacKeeper</File>
 		<Process>MacKeeper</Process>
 	</Adware>
 </AdwareDefinition>
