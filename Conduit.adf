@@ -6,15 +6,15 @@
 	<Comment>This definition is based on the AdwareMedic list of files, not the Apple kbase article. It includes some different things.</Comment>
 	<Adware>
 		<AdwareName>Conduit</AdwareName>
-        <!-- No extension support yet
+		<!-- No extension support yet
 		<item type="extContent">http://www\.trovi\.com</item>
-        <item type="extName">(conduit)|(searchext)|(mybrand)|( Community Toolbar)|(search ?protect)|(trovi)</item> -->
+		<item type="extName">(conduit)|(searchext)|(mybrand)|( Community Toolbar)|(search ?protect)|(trovi)</item> -->
 		<File>/Users/*/Library/Application Support/Google/Chrome/Default/Extensions/cbmjmfcldbpelhknnfjbkobmabafpoed</File>
 		<File>/Library/InputManagers/CTLoader/</File>
 		<File>/Library/LaunchAgents/com.conduit.loader.agent.plist</File>
 		<File>/Library/LaunchDaemons/com.perion.searchprotectd.plist</File>
 		<File>/Library/Application Support/SIMBL/Plugins/CT2285220.bundle</File>
-		<File>/Library/Application Support/Conduit/</File>
+		<File cruft="true">/Library/Application Support/Conduit/</File>
 		<File>/Applications/SearchProtect.app</File>
 		<Process>SearchProtect</Process>
 		<Process>searchprotect</Process>
@@ -22,13 +22,13 @@
 		<File>/Users/*/Conduit</File>
 		<File>/Users/*/Trovi</File>
 		<TestedFile>
-            <File>/Users/*/Conduit</File>
+			<File>/Users/*/Conduit</File>
 			<Regex>search\.conduit\.com</Regex>
 		</TestedFile>
-		<File>/Users/*/Library/Application Support/Conduit</File>
+		<File cruft="true">/Users/*/Library/Application Support/Conduit</File>
 		<TestedFile>
-            <File>/Users/*/Library/Application Support/Conduit</File>
-            <File>/Library/Application Support/Conduit</File>
+			<File cruft="true">/Users/*/Library/Application Support/Conduit</File>
+			<File>/Library/Application Support/Conduit</File>
 			<Regex>search\.conduit\.com</Regex>
 		</TestedFile>
 		<File>/Users/*/Library/Caches/com.Conduit.takeOverSearchAssetsMac</File>
