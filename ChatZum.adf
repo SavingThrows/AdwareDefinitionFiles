@@ -5,8 +5,8 @@
 	<DefinitionSource>http://www.adwaremedic.com/signatures.xml</DefinitionSource>
 	<Adware>
 		<AdwareName>ChatZum</AdwareName>
-        <!-- <item type="extName">chatzum</item> -->
-		<File>/Applications/ChatZumUninstaller.pkg</File>
+		<!-- <item type="extName">chatzum</item> -->
+		<File cruft="true">/Applications/ChatZumUninstaller.pkg</File>
 		<File>/Library/Application Support/SIMBL/Plugins/SafariOmnibar.bundle</File>
 		<File>/Library/Internet Plug-Ins/uid.plist</File>
 		<File>/Library/Internet Plug-Ins/zako.plugin</File>
