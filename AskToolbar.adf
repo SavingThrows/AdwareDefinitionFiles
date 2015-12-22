@@ -6,8 +6,12 @@
 	<Adware>
 		<AdwareName>Ask Toolbar</AdwareName>
 		<!--Ask Toolbar base files.-->
-		<File>/Users/*/Library/Application Support/Sponsors.framework</File>
-        <!-- <item type="extName">Search App by Ask</item> -->
-        <!-- <item type="extName">Allin1Convert</item> -->
+		<File cruft="true">/Users/*/Library/Application Support/Sponsors.framework</File>
+		<File cruft="true">/Library/Application Support/ASK</File>
+		<File>/Library/Application Support/Firefox/Profiles/*/searchplugins/toolbar_*@apn.ask.com.xpi</File>
+		<File>/Library/Application Support/Firefox/Profiles/*/searchplugins/ask-search.xml</File>
+		<File>/Library/Application Support/Chrome/*/Extensions/aaaaaogokkamlflcoccdihncmbgcmfln</File>
+		<File>/Library/Application Support/Chrome/External Extensions/aaaaaogokkamlflcoccdihncmbgcmfln.json</File>
+		<File>/Users/*/Safari/Extensions/Search App by Ask*.safariextz</File>
 	</Adware>
 </AdwareDefinition>
