@@ -1,0 +1,16 @@
+<AdwareDefinition>
+	<Version>90</Version>
+	<SavingThrowVersion>1.1.0</SavingThrowVersion>
+	<DefinitionAuthor>Zack McCauley</DefinitionAuthor>
+	<DefinitionSource>Infected Machine, App Cleaner output</DefinitionSource>
+	<Adware>
+		<AdwareName>MegaBackup</AdwareName>
+		<File>/Applications/MegaBackup.app</File>
+		<File cruft="true">/Users/*/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/com.megabackup.megabackup-uninstaller.sfl</File>
+		<File cruft="true">/Users/*/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/		com.megabackup.megabackup.sfl</File>
+		<File cruft="true">/Users/*/Library/Caches/com.megabackup.*</File>
+		<File cruft="true">/Users/*/Library/Preferences/com.megabackup.*</File>
+		<Process>megabackup</Process>
+		<Process>MegaBackup</Process>
+	</Adware>
+</AdwareDefinition>
