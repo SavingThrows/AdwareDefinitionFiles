@@ -51,6 +51,9 @@
 		<File>/Applications/Totiteck.app</File>
 		<File>/Applications/Uninstall Genieo.app</File>
 		<File>/Applications/Uninstall IM Completer.app</File>
+		<File>/Applications/Epolife</File>
+		<File>/Applications/FriendlySocket</File>
+		<Process>AppYM</Process>
 		<Process>genieo</Process>
 		<Process>Genieo</Process>
 		<Process>inkeepr</Process>
@@ -92,6 +95,7 @@
 		<File>/Users/*/Library/LaunchAgents/texiday.download.plist</File>
 		<File>/Users/*/Library/LaunchAgents/texiday.ltvbit.plist</File>
 		<File>/Users/*/Library/LaunchAgents/texiday.update.plist</File>
+		<File>/Users/*/Library/LaunchAgents/Javeview.update.plist</File>
 		<TestedFile>
 			<File>/private/etc/launchd.conf</File>
 			<Regex>lib(gen|imc)kit(sa)?\.dylib</Regex>
@@ -101,6 +105,7 @@
 		<File>/usr/lib/libimckit.dylib</File>
 		<File>/usr/lib/libimckitsa.dylib</File>
 		<File>/Users/*/Library/Safari/Extensions/Oliverto.safariextz</File>
+		<File>/Users/*/Library/Safari/Extensions/Friendlysocket*</File>
 		<File>/Users/*/Library/LaunchAgents/Feelbegin.AppRemoval.plist</File>
 	</Adware>
 </AdwareDefinition>
