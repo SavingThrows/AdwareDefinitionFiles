@@ -74,8 +74,8 @@
 		<File cruft="true">/Users/*/Library/Application Support/Leperdvil</File>
 		<File cruft="true">/Users/*/Library/Application Support/Listchack</File>
 		<File cruft="true">/Users/*/Library/Application Support/mainorne</File>
-		<File cruft="true">/Users/*/Library/Application Support/montageobox</File>
 		<File cruft="true">/Users/*/Library/Application Support/Manroling</File>
+		<File cruft="true">/Users/*/Library/Application Support/montageobox</File>
 		<File cruft="true">/Users/*/Library/Application Support/Myppes</File>
 		<File cruft="true">/Users/*/Library/Application Support/Nariabox</File>
 		<File cruft="true">/Users/*/Library/Application Support/Olivernetko</File>
@@ -95,10 +95,13 @@
 		<File>/Users/*/Library/LaunchAgents/com.installer.completer.download.plist</File>
 		<File>/Users/*/Library/LaunchAgents/com.installer.completer.ltvbit.plist</File>
 		<File>/Users/*/Library/LaunchAgents/com.installer.completer.update.plist</File>
+		<File>/Users/*/Library/LaunchAgents/Feelbegin.AppRemoval.plist</File>
+		<File>/Users/*/Library/LaunchAgents/Javeview.download.plist</File>
+		<File>/Users/*/Library/LaunchAgents/Javeview.ltvbit.plist</File>
+		<File>/Users/*/Library/LaunchAgents/Javeview.update.plist</File>
 		<File>/Users/*/Library/LaunchAgents/texiday.download.plist</File>
 		<File>/Users/*/Library/LaunchAgents/texiday.ltvbit.plist</File>
 		<File>/Users/*/Library/LaunchAgents/texiday.update.plist</File>
-		<File>/Users/*/Library/LaunchAgents/Javeview.update.plist</File>
 		<TestedFile>
 			<File>/private/etc/launchd.conf</File>
 			<Regex>lib(gen|imc)kit(sa)?\.dylib</Regex>
@@ -107,9 +110,8 @@
 		<File>/usr/lib/libgenkitsa.dylib</File>
 		<File>/usr/lib/libimckit.dylib</File>
 		<File>/usr/lib/libimckitsa.dylib</File>
-		<File>/Users/*/Library/Safari/Extensions/Oliverto.safariextz</File>
 		<File>/Users/*/Library/Safari/Extensions/Friendlysocket*</File>
 		<File>/Users/*/Library/Safari/Extensions/Nariabox.safariextz</File>
-		<File>/Users/*/Library/LaunchAgents/Feelbegin.AppRemoval.plist</File>
+		<File>/Users/*/Library/Safari/Extensions/Oliverto.safariextz</File>
 	</Adware>
 </AdwareDefinition>
