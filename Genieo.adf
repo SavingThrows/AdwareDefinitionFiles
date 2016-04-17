@@ -42,6 +42,7 @@
 		<File>/Applications/Nariabox.app</File>
 		<File>/Applications/Olivernetko.app</File>
 		<File>/Applications/Oliverto.app</File>
+		<File>/Applications/Opinteks.app</File>
 		<File>/Applications/Otwexplain.app</File>
 		<File>/Applications/Portsayd.app</File>
 		<File>/Applications/Qamails.app</File>
@@ -74,10 +75,12 @@
 		<File cruft="true">/Users/*/Library/Application Support/Listchack</File>
 		<File cruft="true">/Users/*/Library/Application Support/mainorne</File>
 		<File cruft="true">/Users/*/Library/Application Support/montageobox</File>
+		<File cruft="true">/Users/*/Library/Application Support/Manroling</File>
 		<File cruft="true">/Users/*/Library/Application Support/Myppes</File>
 		<File cruft="true">/Users/*/Library/Application Support/Nariabox</File>
 		<File cruft="true">/Users/*/Library/Application Support/Olivernetko</File>
 		<File cruft="true">/Users/*/Library/Application Support/Oliverto</File>
+		<File cruft="true">/Users/*/Library/Application Support/Opinteks</File>
 		<File cruft="true">/Users/*/Library/Application Support/Otwexplain</File>
 		<File cruft="true">/Users/*/Library/Application Support/Portsayd</File>
 		<File cruft="true">/Users/*/Library/Application Support/Qamails</File>
