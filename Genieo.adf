@@ -106,6 +106,7 @@
 		<File>/usr/lib/libimckitsa.dylib</File>
 		<File>/Users/*/Library/Safari/Extensions/Oliverto.safariextz</File>
 		<File>/Users/*/Library/Safari/Extensions/Friendlysocket*</File>
+		<File>/Users/*/Library/Safari/Extensions/Nariabox.safariextz</File>
 		<File>/Users/*/Library/LaunchAgents/Feelbegin.AppRemoval.plist</File>
 	</Adware>
 </AdwareDefinition>
