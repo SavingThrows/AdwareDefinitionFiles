@@ -36,6 +36,7 @@
 		<File>/Applications/Kuklorest.app</File>
 		<File>/Applications/Leperdvil.app</File>
 		<File>/Applications/Listchack.app</File>
+		<File>/Applications/Lunaticake.app</File>
 		<File>/Applications/mainorne.app</File>
 		<File>/Applications/montageobox.app</File>
 		<File>/Applications/Myppes.app</File>
@@ -54,6 +55,9 @@
 		<File>/Applications/Uninstall IM Completer.app</File>
 		<File>/Applications/Epolife</File>
 		<File>/Applications/FriendlySocket</File>
+		<File>/Applications/pdf/pdf.pronto</File>
+		<File>/Applications/pdf/Uninstallpdf.pronto</File>
+		<File>/Applications/pronto/pdf.pronto</File>
 		<Process>AppYM</Process>
 		<Process>genieo</Process>
 		<Process>Genieo</Process>
@@ -73,6 +77,7 @@
 		<File cruft="true">/Users/*/Library/Application Support/Kuklorest</File>
 		<File cruft="true">/Users/*/Library/Application Support/Leperdvil</File>
 		<File cruft="true">/Users/*/Library/Application Support/Listchack</File>
+		<File cruft="true">/Users/*/Library/Application Support/Lunaticake</File>
 		<File cruft="true">/Users/*/Library/Application Support/mainorne</File>
 		<File cruft="true">/Users/*/Library/Application Support/Manroling</File>
 		<File cruft="true">/Users/*/Library/Application Support/montageobox</File>
@@ -83,6 +88,7 @@
 		<File cruft="true">/Users/*/Library/Application Support/Opinteks</File>
 		<File cruft="true">/Users/*/Library/Application Support/Otwexplain</File>
 		<File cruft="true">/Users/*/Library/Application Support/Portsayd</File>
+		<File cruft="true">/Users/*/Library/Application Support/ProntoApp</File>
 		<File cruft="true">/Users/*/Library/Application Support/Qamails</File>
 		<File cruft="true">/Users/*/Library/Application Support/Quitelex</File>
 		<File cruft="true">/Users/*/Library/Application Support/Totiteck</File>
@@ -99,6 +105,12 @@
 		<File>/Users/*/Library/LaunchAgents/Javeview.download.plist</File>
 		<File>/Users/*/Library/LaunchAgents/Javeview.ltvbit.plist</File>
 		<File>/Users/*/Library/LaunchAgents/Javeview.update.plist</File>
+		<File>/Users/*/Library/LaunchAgents/Lunaticake.AppVemoral.plist</File>
+		<File>/Users/*/Library/LaunchAgents/Lunaticake.dowlnoad.plist</File>
+		<File>/Users/*/Library/LaunchAgents/Lunaticake.btvlit.plist</File>
+		<File>/Users/*/Library/LaunchAgents/Lunaticake.uadpte.plist</File>
+		<File>/Users/*/Library/LaunchAgents/pronto.notification.plist</File>
+		<File>/Users/*/Library/LaunchAgents/pronto.update.plist</File>
 		<File>/Users/*/Library/LaunchAgents/texiday.download.plist</File>
 		<File>/Users/*/Library/LaunchAgents/texiday.ltvbit.plist</File>
 		<File>/Users/*/Library/LaunchAgents/texiday.update.plist</File>
