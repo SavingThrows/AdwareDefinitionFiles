@@ -33,6 +33,7 @@
 		<File>/Applications/InstallMac.app</File>
 		<File>/Applications/JakeCares.app</File>
 		<File>/Applications/Javeview.app</File>
+		<File>/Applications/Jimbrie.app</File>
 		<File>/Applications/Kuklorest.app</File>
 		<File>/Applications/Leperdvil.app</File>
 		<File>/Applications/Listchack.app</File>
@@ -70,6 +71,7 @@
 		<File cruft="true">/Users/*/Library/Application Support/InKeepr</File>
 		<File cruft="true">/Users/*/Library/Application Support/JakeCares</File>
 		<File cruft="true">/Users/*/Library/Application Support/Javeview</File>
+		<File cruft="true">/Users/*/Library/Application Support/Jimbrie</File>
 		<File cruft="true">/Users/*/Library/Application Support/Kuklorest</File>
 		<File cruft="true">/Users/*/Library/Application Support/Leperdvil</File>
 		<File cruft="true">/Users/*/Library/Application Support/Listchack</File>
@@ -102,6 +104,10 @@
 		<File>/Users/*/Library/LaunchAgents/texiday.download.plist</File>
 		<File>/Users/*/Library/LaunchAgents/texiday.ltvbit.plist</File>
 		<File>/Users/*/Library/LaunchAgents/texiday.update.plist</File>
+		<File>/Users/*/Library/LaunchAgents/Mainorne.AppVemoral.plist</File>
+		<File>/Users/*/Library/LaunchAgents/Mainorne.dolnwoad.plist</File>
+		<File>/Users/*/Library/LaunchAgents/Mainorne.btvlit.plist</File>
+		<File>/Users/*/Library/LaunchAgents/Mainorne.upadte.plist</File>
 		<TestedFile>
 			<File>/private/etc/launchd.conf</File>
 			<Regex>lib(gen|imc)kit(sa)?\.dylib</Regex>
