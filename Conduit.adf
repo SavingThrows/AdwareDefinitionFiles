@@ -10,6 +10,7 @@
 		<item type="extContent">http://www\.trovi\.com</item>
 		<item type="extName">(conduit)|(searchext)|(mybrand)|( Community Toolbar)|(search ?protect)|(trovi)</item> -->
 		<File>/Users/*/Library/Application Support/Google/Chrome/Default/Extensions/cbmjmfcldbpelhknnfjbkobmabafpoed</File>
+		<File>/Users/*/Library/Application Support/Google/Chrome/Default/Extensions/dbfmnekepjoapopniengjbcpnbljalfg</File>
 		<File>/Library/InputManagers/CTLoader/</File>
 		<File>/Library/LaunchAgents/com.conduit.loader.agent.plist</File>
 		<File>/Library/LaunchDaemons/com.perion.searchprotectd.plist</File>
