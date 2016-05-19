@@ -122,6 +122,10 @@
 		<File>/Users/*/Library/LaunchAgents/texiday.download.plist</File>
 		<File>/Users/*/Library/LaunchAgents/texiday.ltvbit.plist</File>
 		<File>/Users/*/Library/LaunchAgents/texiday.update.plist</File>
+		<File>/Users/*/Library/LaunchAgents/Mainorne.AppVemoral.plist</File>
+		<File>/Users/*/Library/LaunchAgents/Mainorne.dolnwoad.plist</File>
+		<File>/Users/*/Library/LaunchAgents/Mainorne.btvlit.plist</File>
+		<File>/Users/*/Library/LaunchAgents/Mainorne.upadte.plist</File>
 		<TestedFile>
 			<File>/private/etc/launchd.conf</File>
 			<Regex>lib(gen|imc)kit(sa)?\.dylib</Regex>
