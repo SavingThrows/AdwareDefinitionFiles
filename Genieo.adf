@@ -76,6 +76,7 @@
 		<File cruft="true">/Users/*/Library/Application Support/JakeCares</File>
 		<File cruft="true">/Users/*/Library/Application Support/Javeview</File>
 		<File cruft="true">/Users/*/Library/Application Support/Jimbrie</File>
+		<File cruft="true">/Users/*/Library/Application Support/Keka</File>
 		<File cruft="true">/Users/*/Library/Application Support/Kuklorest</File>
 		<File cruft="true">/Users/*/Library/Application Support/Leperdvil</File>
 		<File cruft="true">/Users/*/Library/Application Support/Listchack</File>
@@ -94,6 +95,7 @@
 		<File cruft="true">/Users/*/Library/Application Support/Qamails</File>
 		<File cruft="true">/Users/*/Library/Application Support/Quitelex</File>
 		<File cruft="true">/Users/*/Library/Application Support/Smokyashan</File>
+		<File cruft="true">/Users/*/Library/Application Support/Smacklek</File>
 		<File cruft="true">/Users/*/Library/Application Support/Totiteck</File>
 		<File>/Library/PrivilegedHelperTools/com.genieoinnovation.macextension.client</File>
 		<File>/Library/Frameworks/GenieoExtra.framework</File>
@@ -119,6 +121,10 @@
 		<File>/Users/*/Library/LaunchAgents/pronto.notification.plist</File>
 		<File>/Users/*/Library/LaunchAgents/pronto.update.plist</File>
 		<File>/Users/*/Library/LaunchAgents/Smokyashan.update.plist</File>
+		<File>/Users/*/Library/LaunchAgents/Smacklek.AppVemoral.plist</File>
+		<File>/Users/*/Library/LaunchAgents/Smacklek.dolnwoad.plist</File>
+		<File>/Users/*/Library/LaunchAgents/Smacklek.btvlit.plist</File>
+		<File>/Users/*/Library/LaunchAgents/Smacklek.uadpte.plist</File>
 		<File>/Users/*/Library/LaunchAgents/texiday.download.plist</File>
 		<File>/Users/*/Library/LaunchAgents/texiday.ltvbit.plist</File>
 		<File>/Users/*/Library/LaunchAgents/texiday.update.plist</File>
