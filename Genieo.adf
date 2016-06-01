@@ -53,6 +53,7 @@
 		<File>/Applications/Reset Search.app.app</File>
 		<File>/Applications/Texiday.app</File>
 		<File>/Applications/Totiteck.app</File>
+		<File>/Applications/Youppes.app</File>
 		<File>/Applications/Uninstall Genieo.app</File>
 		<File>/Applications/Uninstall IM Completer.app</File>
 		<File>/Applications/Epolife</File>
@@ -98,6 +99,7 @@
 		<File cruft="true">/Users/*/Library/Application Support/Smokyashan</File>
 		<File cruft="true">/Users/*/Library/Application Support/Smacklek</File>
 		<File cruft="true">/Users/*/Library/Application Support/Totiteck</File>
+		<File cruft="true">/Users/*/Library/Application Support/Youppes</File>
 		<File>/Library/PrivilegedHelperTools/com.genieoinnovation.macextension.client</File>
 		<File>/Library/Frameworks/GenieoExtra.framework</File>
 		<File>/Users/*/Library/Application Support/Firefox/Profiles/*/searchplugins/my-homepage.xml</File>
@@ -119,9 +121,14 @@
 		<File>/Users/*/Library/LaunchAgents/Lunaticake.dowlnoad.plist</File>
 		<File>/Users/*/Library/LaunchAgents/Lunaticake.btvlit.plist</File>
 		<File>/Users/*/Library/LaunchAgents/Lunaticake.uadpte.plist</File>
+		<File>/Users/*/Library/LaunchAgents/Myppes.AppVemoral.plist</File>
+		<File>/Users/*/Library/LaunchAgents/Myppes.dolnwoad.plist</File>
+		<File>/Users/*/Library/LaunchAgents/Myppes.btvlit.plist</File>
+		<File>/Users/*/Library/LaunchAgents/Myppes.uadpte.plist</File>
 		<File>/Users/*/Library/LaunchAgents/Pagerpost.AppRemoval.plist</File>
 		<File>/Users/*/Library/LaunchAgents/pronto.notification.plist</File>
 		<File>/Users/*/Library/LaunchAgents/pronto.update.plist</File>
+		<File>/Users/*/Library/LaunchAgents/Oliverto.AppRemoval.plist</File>
 		<File>/Users/*/Library/LaunchAgents/Smokyashan.update.plist</File>
 		<File>/Users/*/Library/LaunchAgents/Smacklek.AppVemoral.plist</File>
 		<File>/Users/*/Library/LaunchAgents/Smacklek.dolnwoad.plist</File>
