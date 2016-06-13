@@ -27,6 +27,7 @@
 		<File>/Applications/Celipsow.app</File>
 		<File>/Applications/Feelbegin.app</File>
 		<File>/Applications/Epolife.app</File>
+		<File>/Applications/Friendlysocket.app</File>
 		<File>/Applications/Genieo.app.app</File>
 		<File>/Applications/InKeepr.app.app</File>
 		<File>/Applications/InKeepr.app</File>
@@ -73,6 +74,7 @@
 		<File cruft="true">/Users/*/Library/Application Support/com.genieoinnovation.Installer</File>
 		<File cruft="true">/Users/*/Library/Application Support/Epolife</File>
 		<File cruft="true">/Users/*/Library/Application Support/Feelbegin</File>
+		<File cruft="true">/Users/*/Library/Application Support/Friendlysocket</File>
 		<File cruft="true">/Users/*/Library/Application Support/Genieo</File>
 		<File cruft="true">/Users/*/Library/Application Support/IM.Installer</File>
 		<File cruft="true">/Users/*/Library/Application Support/InKeepr</File>
@@ -110,6 +112,10 @@
 		<File>/Users/*/Library/LaunchAgents/com.installer.completer.ltvbit.plist</File>
 		<File>/Users/*/Library/LaunchAgents/com.installer.completer.update.plist</File>
 		<File>/Users/*/Library/LaunchAgents/Feelbegin.AppRemoval.plist</File>
+		<File>/Users/*/Library/LaunchAgents/Friendlysocket.AppVemoral.plist</File>
+		<File>/Users/*/Library/LaunchAgents/Friendlysocket.btvlit.plist</File>
+		<File>/Users/*/Library/LaunchAgents/Friendlysocket.dolnwoad.plist</File>
+		<File>/Users/*/Library/LaunchAgents/Friendlysocket.uadpte.plist</File>
 		<File>/Users/*/Library/LaunchAgents/Javeview.download.plist</File>
 		<File>/Users/*/Library/LaunchAgents/Javeview.ltvbit.plist</File>
 		<File>/Users/*/Library/LaunchAgents/Javeview.update.plist</File>
