@@ -55,6 +55,7 @@
 		<File>/Applications/Texiday.app</File>
 		<File>/Applications/Totiteck.app</File>
 		<File>/Applications/Youppes.app</File>
+		<File>/Applications/Yourforth.app</File>
 		<File>/Applications/Uninstall Genieo.app</File>
 		<File>/Applications/Uninstall IM Completer.app</File>
 		<File>/Applications/Epolife</File>
@@ -102,6 +103,7 @@
 		<File cruft="true">/Users/*/Library/Application Support/Smacklek</File>
 		<File cruft="true">/Users/*/Library/Application Support/Totiteck</File>
 		<File cruft="true">/Users/*/Library/Application Support/Youppes</File>
+		<File cruft="true">/Users/*/Library/Application Support/Yourforth</File>
 		<File>/Library/PrivilegedHelperTools/com.genieoinnovation.macextension.client</File>
 		<File>/Library/Frameworks/GenieoExtra.framework</File>
 		<File>/Users/*/Library/Application Support/Firefox/Profiles/*/searchplugins/my-homepage.xml</File>
