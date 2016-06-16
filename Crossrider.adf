@@ -38,6 +38,7 @@
 		<File>/Users/*/Library/LaunchAgents/com.webhelper.plist</File>
 		<File>/Users/*/Library/LaunchAgents/com.webtools.update.agent.plist</File>
 		<File>/Users/*/Library/LaunchAgents/com.webtools.uninstaller.plist</File>
+		<File>/Users/*/Library/LaunchAgents/com.WebShoppy.agent.plist</File>
 		<TestedFile>
 			<Path>/Library/LaunchAgents</Path>
 			<FilenameRegex>com\.webhelper\..*\.plist</FilenameRegex>
@@ -61,6 +62,7 @@
 		<File cruft="true">/Users/*/Library/flashmall/</File>
 		<File>/Applications/WebTools.app</File>
 		<File>/Applications/WebShopper.app</File>
+		<File>/Applications/WebShoppy.app</File>
 		<File>/Users/*/Applications/flashmall.app</File>
 		<TestedFile>
 			<Path>/Applications</Path>
