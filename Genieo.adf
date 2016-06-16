@@ -125,6 +125,10 @@
 		<File>/Users/*/Library/LaunchAgents/Kuklorest.btvlit.plist</File>
 		<File>/Users/*/Library/LaunchAgents/Kuklorest.dowlnoad.plist</File>
 		<File>/Users/*/Library/LaunchAgents/Kuklorest.uadpte.plist</File>
+		<File>/Users/*/Library/LaunchAgents/Listchack.AppVemoral.plist</File>
+		<File>/Users/*/Library/LaunchAgents/Listchack.dolnwoad.plist</File>
+		<File>/Users/*/Library/LaunchAgents/Listchack.btvlit.plist</File>
+		<File>/Users/*/Library/LaunchAgents/Listchack.uadpte.plist</File>
 		<File>/Users/*/Library/LaunchAgents/Lunaticake.AppVemoral.plist</File>
 		<File>/Users/*/Library/LaunchAgents/Lunaticake.dowlnoad.plist</File>
 		<File>/Users/*/Library/LaunchAgents/Lunaticake.btvlit.plist</File>
