@@ -49,6 +49,7 @@
 		<File>/Applications/Opinteks.app</File>
 		<File>/Applications/Otwexplain.app</File>
 		<File>/Applications/Portsayd.app</File>
+		<File>/Applications/Prontovideoconverter.app</File>
 		<File>/Applications/Qamails.app</File>
 		<File>/Applications/Quitelex.app</File>
 		<File>/Applications/Reset Search.app.app</File>
@@ -63,6 +64,7 @@
 		<File>/Applications/pdf/pdf.pronto</File>
 		<File>/Applications/pdf/Uninstallpdf.pronto</File>
 		<File>/Applications/pronto/pdf.pronto</File>
+		<File>/Applications/Pronto/prontovideoconverter.pronto/File>
 		<Process>AppYM</Process>
 		<Process>genieo</Process>
 		<Process>Genieo</Process>
@@ -163,6 +165,7 @@
 		<File>/usr/lib/libimckit.dylib</File>
 		<File>/usr/lib/libimckitsa.dylib</File>
 		<File>/Users/*/Library/Safari/Extensions/Friendlysocket*</File>
+		<File>/Users/*/Library/Safari/Extensions/Kuklorest.safariextz</File>
 		<File>/Users/*/Library/Safari/Extensions/Lunaticake.safariextz</File>
 		<File>/Users/*/Library/Safari/Extensions/Mainorne.safariextz</File>
 		<File>/Users/*/Library/Safari/Extensions/Nariabox.safariextz</File>
