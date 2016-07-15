@@ -64,7 +64,7 @@
 		<File>/Applications/pdf/pdf.pronto</File>
 		<File>/Applications/pdf/Uninstallpdf.pronto</File>
 		<File>/Applications/pronto/pdf.pronto</File>
-		<File>/Applications/Pronto/prontovideoconverter.pronto/File>
+		<File>/Applications/Pronto/prontovideoconverter.pronto</File>
 		<Process>AppYM</Process>
 		<Process>genieo</Process>
 		<Process>Genieo</Process>
