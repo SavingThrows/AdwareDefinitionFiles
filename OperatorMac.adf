@@ -18,5 +18,7 @@
 		<File cruft="true">/Users/*/Library/Application Support/mediahm/</File>
 		<!-- Strange, since there aren't normally LaunchDaemons for users. -->
 		<File>/Users/*/Library/LaunchDaemons/com.mediahm.operator.update.plist</File>
+		<File>/Library/Application Support/mediahm/</File>
+		<File>/Library/LaunchAgents/com.mediahm.operator.update.plist</File>
 	</Adware>
 </AdwareDefinition>

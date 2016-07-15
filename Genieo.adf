@@ -27,6 +27,7 @@
 		<File>/Applications/Celipsow.app</File>
 		<File>/Applications/Feelbegin.app</File>
 		<File>/Applications/Epolife.app</File>
+		<File>/Applications/Friendlysocket.app</File>
 		<File>/Applications/Genieo.app.app</File>
 		<File>/Applications/InKeepr.app.app</File>
 		<File>/Applications/InKeepr.app</File>
@@ -48,11 +49,14 @@
 		<File>/Applications/Opinteks.app</File>
 		<File>/Applications/Otwexplain.app</File>
 		<File>/Applications/Portsayd.app</File>
+		<File>/Applications/Prontovideoconverter.app</File>
 		<File>/Applications/Qamails.app</File>
 		<File>/Applications/Quitelex.app</File>
 		<File>/Applications/Reset Search.app.app</File>
 		<File>/Applications/Texiday.app</File>
 		<File>/Applications/Totiteck.app</File>
+		<File>/Applications/Youppes.app</File>
+		<File>/Applications/Yourforth.app</File>
 		<File>/Applications/Uninstall Genieo.app</File>
 		<File>/Applications/Uninstall IM Completer.app</File>
 		<File>/Applications/Epolife</File>
@@ -60,6 +64,7 @@
 		<File>/Applications/pdf/pdf.pronto</File>
 		<File>/Applications/pdf/Uninstallpdf.pronto</File>
 		<File>/Applications/pronto/pdf.pronto</File>
+		<File>/Applications/Pronto/prontovideoconverter.pronto</File>
 		<Process>AppYM</Process>
 		<Process>genieo</Process>
 		<Process>Genieo</Process>
@@ -72,6 +77,7 @@
 		<File cruft="true">/Users/*/Library/Application Support/com.genieoinnovation.Installer</File>
 		<File cruft="true">/Users/*/Library/Application Support/Epolife</File>
 		<File cruft="true">/Users/*/Library/Application Support/Feelbegin</File>
+		<File cruft="true">/Users/*/Library/Application Support/Friendlysocket</File>
 		<File cruft="true">/Users/*/Library/Application Support/Genieo</File>
 		<File cruft="true">/Users/*/Library/Application Support/IM.Installer</File>
 		<File cruft="true">/Users/*/Library/Application Support/InKeepr</File>
@@ -98,6 +104,8 @@
 		<File cruft="true">/Users/*/Library/Application Support/Smokyashan</File>
 		<File cruft="true">/Users/*/Library/Application Support/Smacklek</File>
 		<File cruft="true">/Users/*/Library/Application Support/Totiteck</File>
+		<File cruft="true">/Users/*/Library/Application Support/Youppes</File>
+		<File cruft="true">/Users/*/Library/Application Support/Yourforth</File>
 		<File>/Library/PrivilegedHelperTools/com.genieoinnovation.macextension.client</File>
 		<File>/Library/Frameworks/GenieoExtra.framework</File>
 		<File>/Users/*/Library/Application Support/Firefox/Profiles/*/searchplugins/my-homepage.xml</File>
@@ -108,6 +116,10 @@
 		<File>/Users/*/Library/LaunchAgents/com.installer.completer.ltvbit.plist</File>
 		<File>/Users/*/Library/LaunchAgents/com.installer.completer.update.plist</File>
 		<File>/Users/*/Library/LaunchAgents/Feelbegin.AppRemoval.plist</File>
+		<File>/Users/*/Library/LaunchAgents/Friendlysocket.AppVemoral.plist</File>
+		<File>/Users/*/Library/LaunchAgents/Friendlysocket.btvlit.plist</File>
+		<File>/Users/*/Library/LaunchAgents/Friendlysocket.dolnwoad.plist</File>
+		<File>/Users/*/Library/LaunchAgents/Friendlysocket.uadpte.plist</File>
 		<File>/Users/*/Library/LaunchAgents/Javeview.download.plist</File>
 		<File>/Users/*/Library/LaunchAgents/Javeview.ltvbit.plist</File>
 		<File>/Users/*/Library/LaunchAgents/Javeview.update.plist</File>
@@ -115,13 +127,22 @@
 		<File>/Users/*/Library/LaunchAgents/Kuklorest.btvlit.plist</File>
 		<File>/Users/*/Library/LaunchAgents/Kuklorest.dowlnoad.plist</File>
 		<File>/Users/*/Library/LaunchAgents/Kuklorest.uadpte.plist</File>
+		<File>/Users/*/Library/LaunchAgents/Listchack.AppVemoral.plist</File>
+		<File>/Users/*/Library/LaunchAgents/Listchack.dolnwoad.plist</File>
+		<File>/Users/*/Library/LaunchAgents/Listchack.btvlit.plist</File>
+		<File>/Users/*/Library/LaunchAgents/Listchack.uadpte.plist</File>
 		<File>/Users/*/Library/LaunchAgents/Lunaticake.AppVemoral.plist</File>
 		<File>/Users/*/Library/LaunchAgents/Lunaticake.dowlnoad.plist</File>
 		<File>/Users/*/Library/LaunchAgents/Lunaticake.btvlit.plist</File>
 		<File>/Users/*/Library/LaunchAgents/Lunaticake.uadpte.plist</File>
+		<File>/Users/*/Library/LaunchAgents/Myppes.AppVemoral.plist</File>
+		<File>/Users/*/Library/LaunchAgents/Myppes.dolnwoad.plist</File>
+		<File>/Users/*/Library/LaunchAgents/Myppes.btvlit.plist</File>
+		<File>/Users/*/Library/LaunchAgents/Myppes.uadpte.plist</File>
 		<File>/Users/*/Library/LaunchAgents/Pagerpost.AppRemoval.plist</File>
 		<File>/Users/*/Library/LaunchAgents/pronto.notification.plist</File>
 		<File>/Users/*/Library/LaunchAgents/pronto.update.plist</File>
+		<File>/Users/*/Library/LaunchAgents/Oliverto.AppRemoval.plist</File>
 		<File>/Users/*/Library/LaunchAgents/Smokyashan.update.plist</File>
 		<File>/Users/*/Library/LaunchAgents/Smacklek.AppVemoral.plist</File>
 		<File>/Users/*/Library/LaunchAgents/Smacklek.dolnwoad.plist</File>
@@ -144,6 +165,7 @@
 		<File>/usr/lib/libimckit.dylib</File>
 		<File>/usr/lib/libimckitsa.dylib</File>
 		<File>/Users/*/Library/Safari/Extensions/Friendlysocket*</File>
+		<File>/Users/*/Library/Safari/Extensions/Kuklorest.safariextz</File>
 		<File>/Users/*/Library/Safari/Extensions/Lunaticake.safariextz</File>
 		<File>/Users/*/Library/Safari/Extensions/Mainorne.safariextz</File>
 		<File>/Users/*/Library/Safari/Extensions/Nariabox.safariextz</File>
